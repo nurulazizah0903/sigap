@@ -1,0 +1,11 @@
+{
+    "name": "sigap",
+    "version": "18.12.6",
+    "description": "sigap",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "private": true,
+    "dependencies": {},
+    "engines": {
+        "node": ">=16"
+    }
+}
