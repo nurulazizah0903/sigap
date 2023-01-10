@@ -1,0 +1,4974 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ew-language date="2023/1/11" version="16.0.1" id="en" name="English" desc="English" author="e.World Technology Ltd.">
+  <!--
+	*** Important Notes:
+	1. Language ID should follow: https://developers.google.com/recaptcha/docs/language,
+	2. Locale settings are placed in a separate locale files under the "locales" folder,
+	3. Locale files must be named with language ID of language file (and converted to lowercase), e.g. en.json,
+	4. Locale files are ALWAYS used, regardless of whether the project is single language or multiple language.
+-->
+  <global>
+    <phrase id="accept" value="Accept" />
+    <!-- v2019 -->
+    <phrase id="actiondeleted" value="Deleted" />
+    <phrase id="actioninserted" value="Inserted" />
+    <phrase id="actioninsertedgridadd" value="Inserted (Grid-Add)" />
+    <phrase id="actionupdated" value="Updated" />
+    <phrase id="actionupdatedgridedit" value="Updated (Grid-Edit)" />
+    <phrase id="actionupdatedmultiupdate" value="Updated (Multi-Update)" />
+    <phrase id="activateaccount" value="Your account is activated" />
+    <phrase id="activatefailed" value="Activation failed" />
+    <phrase id="add" value="Add" />
+    <phrase id="addblankrow" value="Add Blank Row" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addbtn" value="Add" client="1" />
+    <!-- v2018 -->
+    <phrase id="addlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="addmasterdetaillink" value="Master/Detail Add" class="icon-md-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="addsuccess" value="Add succeeded" />
+    <phrase id="advancedsearch" value="Advanced Search" />
+    <!-- v11 -->
+    <phrase id="advancedsearchbtn" value="Advanced Search" class="icon-advanced-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="aggregatecolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="aggregateequal" value="=" />
+    <!-- v2020 (report) -->
+    <phrase id="allrecords" value="All" />
+    <phrase id="allword" value="All words" />
+    <phrase id="alwaysask" value="Always ask for my user name and password" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="anyword" value="Any word" />
+    <phrase id="audittrailautologin" value="autologin" />
+    <phrase id="audittrailfailedattempt" value="failed attempt: %n" />
+    <phrase id="audittrailuserloggedin" value="user already logged in" />
+    <phrase id="audittrailpasswordexpired" value="password expired" />
+    <phrase id="audittraillogin" value="login" />
+    <phrase id="audittraillogout" value="logout" />
+    <phrase id="autologin" value="Auto login until I logout explicitly" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="autologinfailed" value="Auto login failed" />
+    <!-- v2018 -->
+    <phrase id="average" value="Average" />
+    <phrase id="backtolist" value="Back to List" />
+    <phrase id="backtologin" value="Back to login page" />
+    <phrase id="backtomasterrecordpage" value="Back to master table" />
+    <phrase id="batchdeletebegin" value="*** Batch delete begin ***" />
+    <phrase id="batchdeleterollback" value="*** Batch delete rollback ***" />
+    <phrase id="batchdeletesuccess" value="*** Batch delete successful ***" />
+    <phrase id="batchinsertbegin" value="*** Batch insert begin ***" />
+    <phrase id="batchinsertrollback" value="*** Batch insert rollback ***" />
+    <phrase id="batchinsertsuccess" value="*** Batch insert successful ***" />
+    <phrase id="batchupdatebegin" value="*** Batch update begin ***" />
+    <phrase id="batchupdaterollback" value="*** Batch update rollback ***" />
+    <phrase id="batchupdatesuccess" value="*** Batch update successful ***" />
+    <phrase id="booleanno" value="No" />
+    <!-- v2020 (report) -->
+    <phrase id="booleanyes" value="Yes" />
+    <!-- v2020 (report) -->
+    <phrase id="buttonactions" value="Actions" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonaddedit" value="Add/Edit" class="icon-addedit ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttondetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonexport" value="Export" class="fas fa-download ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonimport" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="buttonlistoptions" value="Options" class="icon-options ew-icon" />
+    <!-- v11 -->
+    <phrase id="buttonsearch" value="Search" class="icon-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="cancelbtn" value="Cancel" client="1" />
+    <!-- v2017 -->
+    <phrase id="cancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="changepwd" value="Change Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="changepwdmsg" value="Change Password" />
+    <!-- v2019 -->
+    <phrase id="changepwdpage" value="Change Password" />
+    <phrase id="changepwdbtn" value="Change" />
+    <phrase id="chartorder" value="Order by" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxasc" value="Labels Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderxdesc" value="Labels Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderyasc" value="Values Ascending" />
+    <!-- v2020 (report) -->
+    <phrase id="chartorderydesc" value="Values Descending" />
+    <!-- v2020 (report) -->
+    <phrase id="choosefilebtn" value="Choose..." />
+    <!-- v11 -->
+    <phrase id="choosefile" value="Choose file" />
+    <!-- v11 -->
+    <phrase id="choosefiles" value="Choose files" />
+    <!-- v11 -->
+    <phrase id="clickrecaptcha" value="Please click reCAPTCHA" client="1" />
+    <!-- v12 -->
+    <phrase id="clicktodrilldown" value="Click to drill down" />
+    <!-- v2020 (report) -->
+    <phrase id="closeaccountbtn" value="Delete data and close my account" />
+    <!-- v2019 -->
+    <phrase id="closebtn" value="Close" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirm" value="Confirm" />
+    <phrase id="confirmbtn" value="Confirm" client="1" />
+    <!-- v2017 -->
+    <phrase id="confirmcancel" value="Do you want to cancel?" client="1" />
+    <!-- v12 -->
+    <phrase id="confirmpassword" value="Confirm Password" />
+    <phrase id="conflictcancellink" value="Cancel" />
+    <phrase id="cookieconsentsummary" value="Use this space to summarize your privacy and cookie use policy." />
+    <!-- v2019 -->
+    <phrase id="copy" value="Copy" />
+    <phrase id="copylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="count" value="Count" />
+    <phrase id="countselected" value="%s selected" client="1" />
+    <!-- v12 -->
+    <phrase id="ctbsumhead" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="currentfilters" value="Current filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="currentpassword" value="Current password: " client="1" />
+    <!-- v12 -->
+    <phrase id="customactioncompleted" value="'%s' completed" />
+    <phrase id="customactioncancelled" value="'%s' cancelled" />
+    <phrase id="customactionfailed" value="'%s' failed" />
+    <!-- v12 -->
+    <phrase id="customactionnotallowed" value="'%s' not allowed" />
+    <!-- v12 -->
+    <phrase id="customview" value="CUSTOM VIEW" />
+    <phrase id="danger" value="Error" client="1" />
+    <!-- v2020 -->
+    <phrase id="delete" value="Delete" />
+    <phrase id="deletebtn" value="Delete" />
+    <phrase id="deletecancelled" value="Delete cancelled" />
+    <phrase id="deleteconfirmmsg" value="Are you sure you want to delete?" client="1" />
+    <phrase id="deletefilter" value="Delete filter" />
+    <!-- v12 -->
+    <phrase id="deletefilterconfirm" value="Delete filter %s?" client="1" />
+    <!-- v12 -->
+    <phrase id="deletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deleteselectedlink" value="Delete Selected Records" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="deletesuccess" value="Delete succeeded" />
+    <phrase id="detaillink" value="" />
+    <phrase id="detailcount" value="&lt;span class='badge badge-info ew-detail-count%c'&gt;%c&lt;/span&gt;" />
+    <!-- v2019 -->
+    <phrase id="downloadbtn" value="Download" />
+    <!-- v2019 -->
+    <phrase id="drilldownallrecords" value="All records" />
+    <!-- v2020 (report) -->
+    <phrase id="drilldownfilters" value="Drill down filters:" />
+    <!-- v2020 (report) -->
+    <phrase id="dupindex" value="Duplicate value '%v' for unique index '%f'" />
+    <phrase id="dupkey" value="Duplicate primary key: '%f'" />
+    <phrase id="edit" value="Edit" />
+    <phrase id="editbtn" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="editlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="enterfiltername" value="Enter filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="enternewpassword" value="Please enter new password" client="1" />
+    <phrase id="enteroldpassword" value="Please enter old password" client="1" />
+    <phrase id="enterpassword" value="Please enter password" client="1" />
+    <phrase id="enterpwd" value="Please enter password" client="1" />
+    <phrase id="enterrequiredfield" value="Please enter required field - %s" />
+    <!-- v11 -->
+    <phrase id="entersearchcriteria" value="Please enter search criteria" />
+    <phrase id="enterusername" value="Please enter username" client="1" />
+    <phrase id="entervalidatecode" value="Enter the validation code shown" client="1" />
+    <!-- v11 -->
+    <phrase id="entersenderemail" value="Please enter sender email" client="1" />
+    <phrase id="enterpropersenderemail" value="Exceed maximum sender email count or email address incorrect" client="1" />
+    <phrase id="enterrecipientemail" value="Please enter recipient email" client="1" />
+    <phrase id="enterproperrecipientemail" value="Exceed maximum recipient email count or email address incorrect" client="1" />
+    <phrase id="enterproperccemail" value="Exceed maximum cc email count or email address incorrect" client="1" />
+    <phrase id="enterproperbccemail" value="Exceed maximum bcc email count or email address incorrect" client="1" />
+    <phrase id="entersubject" value="Please enter subject" client="1" />
+    <phrase id="emailformsender" value="From" />
+    <phrase id="emailformrecipient" value="To" />
+    <phrase id="emailformcc" value="Cc" />
+    <phrase id="emailformbcc" value="Bcc" />
+    <phrase id="emailformsubject" value="Subject" />
+    <phrase id="emailformmessage" value="Message" />
+    <phrase id="emailformcontenttype" value="Send as" />
+    <phrase id="emailformcontenttypeurl" value="URL" />
+    <phrase id="emailformcontenttypehtml" value="HTML" />
+    <phrase id="emptylabel" value="(Empty)" />
+    <!-- v2020 (report) -->
+    <phrase id="enteruid" value="Please enter user ID" client="1" />
+    <phrase id="entervalidemail" value="Please enter valid Email Address" client="1" />
+    <phrase id="exactphrase" value="Exact phrase" />
+    <phrase id="exceedmaxretry" value="Exceed maximum login retry count. Account is locked. Please try again in %t minutes" />
+    <phrase id="exceedmaxemailexport" value="Exceed maximum export email count. Please try again later" />
+    <phrase id="exportchart" value="Exporting chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportchartdata" value="Exporting chart data" client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportcharterror" value="Failed to export chart: " client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exportclassnotfound" value="Export class not found" />
+    <!-- v2019 -->
+    <phrase id="exporting" value="Exporting, please wait..." client="1" />
+    <!-- v2018 -->
+    <phrase id="exportingchart" value="Exporting chart (%c of %t), please wait..." client="1" />
+    <!-- v2020 (report) -->
+    <phrase id="exporttocsv" value="Export to CSV" class="icon-csv ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttocsvtext" value="CSV" />
+    <phrase id="exporttoemail" value="Email" class="icon-email ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoemailtext" value="Email" client="1" />
+    <phrase id="exporttoexcel" value="Export to Excel" class="icon-excel ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoexceltext" value="Excel" />
+    <phrase id="exporttohtml" value="Export to HTML" class="icon-html ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttohtmltext" value="HTML" />
+    <phrase id="exporttopdf" value="Export to PDF" class="icon-pdf ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttopdftext" value="PDF" />
+    <phrase id="exporttoword" value="Export to Word" class="icon-word ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttowordtext" value="Word" />
+    <phrase id="exporttoxml" value="Export to XML" class="icon-xml ew-icon" />
+    <!-- v11 -->
+    <phrase id="exporttoxmltext" value="XML" />
+    <phrase id="failedtoexport" value="Failed to Export" client="1" />
+    <!-- v2018 -->
+    <phrase id="failedtosendmail" value="Failed to send mail. " />
+    <phrase id="fieldname" value="Field Name" />
+    <phrase id="fieldrequiredindicator" class="fas fa-asterisk ew-required" />
+    <!-- v2019 -->
+    <phrase id="filenotfound" value="File not found" />
+    <phrase id="filter" value="Filter" />
+    <!-- v12 -->
+    <phrase id="filtername" value="Filter name" client="1" />
+    <!-- v12 -->
+    <phrase id="filters" value="Filters" class="icon-filter ew-icon" />
+    <!-- v12 -->
+    <phrase id="forgotpasswordresponse" value="You will receive password recovery instructions shortly if your email address is registered." />
+    <!-- v2019 -->
+    <phrase id="forgotpwd" value="Forgot Password" client="1" />
+    <!-- v2020 -->
+    <phrase id="generatepassword" value="Generate password" class="fas fa-bolt ew-icon" />
+    <!-- v2019 -->
+    <phrase id="goback" value="Go Back" />
+    <phrase id="gridaddcancelled" value="Grid add cancelled" />
+    <!-- v11 -->
+    <phrase id="gridaddlink" value="Grid Add" class="icon-grid-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridcancellink" value="Cancel" class="fas fa-times ew-icon" />
+    <!-- v2019 -->
+    <phrase id="grideditcancelled" value="Grid edit cancelled" />
+    <!-- v11 -->
+    <phrase id="grideditlink" value="Grid Edit" class="icon-grid-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="gridinsertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="gridsavelink" value="Save" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="group" value="Groups" />
+    <!-- v2020 (report) -->
+    <phrase id="groupsperpage" value="Groups per page" />
+    <!-- v2020 (report) -->
+    <phrase id="highlight" value="Highlight" />
+    <!-- v11 -->
+    <phrase id="highlightbtn" value="Highlight" class="icon-highlight ew-icon" />
+    <!-- v11 -->
+    <phrase id="homepage" value="Home" class="fas fa-home ew-icon" />
+    <!-- v2019 -->
+    <phrase id="import" value="Import" class="fas fa-upload ew-icon" />
+    <!-- v2019 -->
+    <phrase id="importbtn" value="Import" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror1" value="Imported %c of %t records from %f (success: %s, failure: %e)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror2" value=", error: %e" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror3" value="row %i: %d" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageerror4" value="log file: %l" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfileextension" value="Invalid file extension '%e'" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldname" value="Invalid field name: %f" />
+    <!-- v2019 -->
+    <phrase id="importmessageinvalidfieldvalue" value="Invalid field value (field name %f): %v" />
+    <!-- v2019 -->
+    <phrase id="importmessagemore" value="(%s more)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagenoheaderrow" value="No header row for import" />
+    <!-- v2019 -->
+    <phrase id="importmessageprogress" value="Importing %c of %t records from %f..." client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageservererror" value="Server error %s: %t" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagesuccess" value="Imported %c of %t records from %f successfully" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploaderror" value="Failed to upload %f: %s" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadcomplete" value="Upload completed" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageuploadprogress" value="Uploading...(p%)" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessagepleaseselect" value="Please select file" client="1" />
+    <!-- v2019 -->
+    <phrase id="importmessageincorrectfiletype" value="Incorrect file type" client="1" />
+    <!-- v2019 -->
+    <phrase id="importtext" value="Import" client="1" />
+    <!-- v2019 -->
+    <phrase id="incorrectcreditcard" value="Incorrect credit card number" />
+    <phrase id="incorrectdate" value="Incorrect date (%s)" />
+    <phrase id="incorrectdateymd" value="Incorrect date (yyyy%smm%sdd)" />
+    <phrase id="incorrectdatemdy" value="Incorrect date (mm%sdd%syyyy)" />
+    <phrase id="incorrectdatedmy" value="Incorrect date (dd%smm%syyyy)" />
+    <phrase id="incorrectshortdateymd" value="Incorrect date (yy%smm%sdd)" />
+    <phrase id="incorrectshortdatemdy" value="Incorrect date (mm%sdd%syy)" />
+    <phrase id="incorrectshortdatedmy" value="Incorrect date (dd%smm%syy)" />
+    <phrase id="incorrectemail" value="Incorrect email" client="1" />
+    <phrase id="incorrectfield" value="Incorrect field" client="1" />
+    <phrase id="incorrectfloat" value="Incorrect floating point number" client="1" />
+    <phrase id="incorrectguid" value="Incorrect GUID" client="1" />
+    <phrase id="incorrectinteger" value="Incorrect integer" client="1" />
+    <phrase id="incorrectphone" value="Incorrect phone number" client="1" />
+    <phrase id="incorrectrange" value="Number must be between %1 and %2" client="1" />
+    <phrase id="incorrectregexp" value="Regular expression not matched" client="1" />
+    <phrase id="incorrectssn" value="Incorrect social security number" client="1" />
+    <phrase id="incorrecttime" value="Incorrect time (hh%smm(%sss))" />
+    <phrase id="incorrectzip" value="Incorrect ZIP code" client="1" />
+    <phrase id="info" value="Information" client="1" />
+    <!-- v2020 -->
+    <phrase id="inlineaddlink" value="Inline Add" class="icon-inline-add ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlinecopylink" value="Inline Copy" class="icon-inline-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="inlineeditlink" value="Inline Edit" class="icon-inline-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="insertcancelled" value="Insert cancelled" />
+    <phrase id="insertfailed" value="Insert failed" client="1" />
+    <phrase id="insertlink" value="Insert" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="insertsuccess" value="Insert succeeded" />
+    <phrase id="invalidemail" value="Invalid Email" />
+    <phrase id="invalidfield" value="Invalid Field" />
+    <phrase id="invalidkeyvalue" value="Invalid key value" />
+    <phrase id="invalidrecord" value="Invalid Record! Key is null" client="1" />
+    <phrase id="invalidpostrequest" value="Invalid post request" />
+    <!-- v11 -->
+    <phrase id="invalidparameter" value="Invalid Parameter" />
+    <phrase id="invalidpassword" value="Invalid Password" />
+    <phrase id="invalidnewpassword" value="Invalid New Password" />
+    <phrase id="invaliduidpwd" value="Incorrect user name or password" />
+    <phrase id="keep" value="Keep" />
+    <phrase id="language" value="Language" />
+    <phrase id="learnmore" value="Learn More" />
+    <!-- v2019 -->
+    <phrase id="lightboxtitle" value=" " client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxcurrent" value="image {current} of {total}" client="1" />
+    <!-- Note: DO NOT translate "{current}" and "{total}" -->
+    <!-- v11 -->
+    <phrase id="lightboxprevious" value="previous" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxnext" value="next" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxclose" value="close" client="1" />
+    <!-- v11 -->
+    <phrase id="lightboxxhrerror" value="This content failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="lightboximgerror" value="This image failed to load." client="1" />
+    <!-- v11 -->
+    <phrase id="list" value="" />
+    <!-- v2019 -->
+    <phrase id="listactionbutton" value="Actions" class="fas fa-ellipsis-v" />
+    <!-- v2020 -->
+    <phrase id="loading" value="Loading..." client="1" />
+    <phrase id="login" value="Login" client="1" />
+    <!-- v2020 -->
+    <phrase id="logincancelled" value="Login cancelled" />
+    <phrase id="loginfacebook" value="Login with Facebook" />
+    <!-- v2018 -->
+    <phrase id="loginfailed" value="Login with %p failed" />
+    <!-- v2018 -->
+    <phrase id="logingoogle" value="Login with Google" />
+    <!-- v2018 -->
+    <phrase id="loginmsg" value="Sign in to start your session" />
+    <!-- v2019 -->
+    <phrase id="loginoptions" value="Options" />
+    <!-- v11 -->
+    <phrase id="loginor" value="- OR -" />
+    <!-- v2018 -->
+    <phrase id="loginpage" value="Login" />
+    <phrase id="logout" value="Logout" />
+    <phrase id="lookuplink" value="Lookup - %s" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="masterdetailcopylink" value="Master/Detail Copy" class="icon-md-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaileditlink" value="Master/Detail Edit" class="icon-md-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetaillistlink" value="Detail List" class="icon-table ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterdetailviewlink" value="Master/Detail View" class="icon-md-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="masterrecord" value="Master Record: " />
+    <phrase id="maxfilesize" value="Max. file size (%s bytes) exceeded." client="1" />
+    <phrase id="messageok" value="OK" client="1" />
+    <phrase id="midnight" value="midnight" client="1" />
+    <!-- v2017 -->
+    <phrase id="mismatchpassword" value="Mismatch Password" client="1" />
+    <phrase id="missinglookuptablename" value="Missing lookup table name" />
+    <phrase id="missingdisplayfieldname" value="Missing display field name" />
+    <phrase id="missingdisplayfieldvalue" value="Missing display field value" />
+    <phrase id="missingpdfobject" value="Missing PDFObject" client="1" />
+    <!-- v2020 -->
+    <phrase id="missinguserlevelid" value="Missing User Level ID" />
+    <phrase id="missinguserlevelname" value="Missing User Level name" />
+    <phrase id="mobilemenu" value="Menu" />
+    <phrase id="monthjan" value="Jan" />
+    <!-- v2020 (report) -->
+    <phrase id="monthfeb" value="Feb" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmar" value="Mar" />
+    <!-- v2020 (report) -->
+    <phrase id="monthapr" value="Apr" />
+    <!-- v2020 (report) -->
+    <phrase id="monthmay" value="May" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjun" value="Jun" />
+    <!-- v2020 (report) -->
+    <phrase id="monthjul" value="Jul" />
+    <!-- v2020 (report) -->
+    <phrase id="monthaug" value="Aug" />
+    <!-- v2020 (report) -->
+    <phrase id="monthsep" value="Sep" />
+    <!-- v2020 (report) -->
+    <phrase id="monthoct" value="Oct" />
+    <!-- v2020 (report) -->
+    <phrase id="monthnov" value="Nov" />
+    <!-- v2020 (report) -->
+    <phrase id="monthdec" value="Dec" />
+    <!-- v2020 (report) -->
+    <phrase id="more" value="More" client="1" />
+    <!-- v2018 -->
+    <phrase id="multiplemasterdetails" value="Master/Detail" class="icon-master-detail ew-icon" />
+    <!-- v11 -->
+    <phrase id="new" value="New" />
+    <phrase id="newpassword" value="New Password" />
+    <phrase id="newvalue" value="New value" />
+    <!-- v12 -->
+    <phrase id="next" value="Next" client="1" />
+    <!-- v12 -->
+    <phrase id="noaddrecord" value="No records to be added" client="1" />
+    <phrase id="nofieldselected" value="No field selected for update" client="1" />
+    <phrase id="nopermission" value="You do not have permission to access %s." />
+    <!-- v12.0.6 -->
+    <phrase id="noaddpermission" value="You do not have permission to add the record." />
+    <phrase id="nochartdata" value="No data to display" client="1" />
+    <!-- v2020 -->
+    <phrase id="nodeletepermission" value="You do not have permission to delete the record." />
+    <phrase id="nodistinctcolvals" value="No distinct column values for SQL: " />
+    <!-- v2020 (report) -->
+    <phrase id="noeditpermission" value="You do not have permission to edit the record." />
+    <phrase id="noon" value="noon" />
+    <!-- v2017 -->
+    <phrase id="norecord" value="No records found" client="1" />
+    <!-- v2017 -->
+    <phrase id="norecordforkey" value="No record found for key = " />
+    <phrase id="noreportorcharts" value="No report or charts are available for this page." />
+    <!-- v2020 (report) -->
+    <phrase id="norecordselected" value="No records selected" client="1" />
+    <phrase id="notablegenerated" value="No tables generated" />
+    <phrase id="nouserlevel" value="No user level settings." />
+    <phrase id="nulllabel" value="(Null)" />
+    <!-- v2020 (report) -->
+    <phrase id="of" value="of" client="1" />
+    <!-- v2017 -->
+    <phrase id="old" value="Old" />
+    <phrase id="oldpassword" value="Old Password" />
+    <phrase id="optionalreadyexist" value="Option already exists" />
+    <phrase id="overwritebtn" value="Overwrite" client="1" />
+    <!-- v2017 -->
+    <phrase id="overwritelink" value="Overwrite" />
+    <phrase id="page" value="Page" client="1" />
+    <!-- v2017 -->
+    <phrase id="pagerfirst" value="First" />
+    <phrase id="pagerlast" value="Last" />
+    <phrase id="pagernext" value="Next" />
+    <phrase id="pagerprevious" value="Previous" />
+    <phrase id="password" value="Password" />
+    <phrase id="passwordmask" value="********" />
+    <!-- v12 -->
+    <phrase id="passwordrequest" value="Password Request" />
+    <phrase id="passwordchanged" value="Password Changed" />
+    <phrase id="passwordexpired" value="Password Expired. Please change password." />
+    <phrase id="passwordstrength" value="Strength: %p" client="1" />
+    <!-- v12 -->
+    <phrase id="passwordtoosimple" value="Your password is too simple" client="1" />
+    <!-- v12 -->
+    <phrase id="permission" value="Permissions" class="icon-user ew-icon" />
+    <!-- v11 -->
+    <phrase id="permissionadd" value="Add/Copy" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionadmin" value="Admin" client="1" />
+    <!-- v2019 -->
+    <phrase id="permissiondelete" value="Delete" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionedit" value="Edit" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionimport" value="Import" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionlistsearchview" value="List/Search/View" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlist" value="List" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionlookup" value="Lookup" client="1" />
+    <!-- v2020 -->
+    <phrase id="permissionsearch" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="permissionview" value="View" client="1" />
+    <!-- v2018 -->
+    <phrase id="personaldatabtn" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatacontent" value="Your account contains personal data that you have given us. This page allows you to download or delete that data." />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletefailure" value="Unexpected error occurred deleting user" />
+    <!-- v2019 -->
+    <phrase id="personaldatadeletesuccess" value="Personal data deleted successfully" />
+    <!-- v2019 -->
+    <phrase id="personaldatatitle" value="Personal Data" />
+    <!-- v2019 -->
+    <phrase id="personaldatawarning" value="Deleting this data will permanently remove your account, and this cannot be recovered." />
+    <!-- v2019 -->
+    <phrase id="pickdate" value="Pick a date" />
+    <phrase id="pleaseselect" value="Please select" client="1" />
+    <!-- v12 -->
+    <phrase id="pleasewait" value="Please wait..." client="1" />
+    <phrase id="prev" value="Prev" client="1" />
+    <!-- v12 -->
+    <phrase id="primarykeyunspecified" value="Primary key unspecified" />
+    <phrase id="printerfriendly" value="Printer Friendly" class="icon-print ew-icon" />
+    <!-- v11 -->
+    <phrase id="printerfriendlytext" value="Printer Friendly" />
+    <phrase id="privacypolicy" value="Privacy Policy" />
+    <!-- v2019 -->
+    <phrase id="privacypolicycontent" value="Use this page to detail your site's privacy policy." />
+    <!-- v2019 -->
+    <phrase id="qtr1" value="1st Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr2" value="2nd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr3" value="3rd Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="qtr4" value="4th Quarter" />
+    <!-- v2020 (report) -->
+    <phrase id="quicksearch" value="Quick Search" />
+    <phrase id="quicksearchbtn" value="Search" />
+    <phrase id="quicksearchauto" value="Auto" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchautoshort" value="" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchall" value="All keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchallshort" value="All" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchany" value="Any keywords" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchanyshort" value="Any" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexact" value="Exact match" client="1" />
+    <!-- v11 -->
+    <phrase id="quicksearchexactshort" value="Exact" client="1" />
+    <!-- v11 -->
+    <phrase id="record" value="Records" client="1" />
+    <!-- v2017 -->
+    <phrase id="recordchangedbyotheruser" value="Data has been changed by other user. Click [Reload] to retrieve the changed data (your data in the form will be overwritten) or click [Overwrite] to overwrite the changed data." />
+    <phrase id="recorddeleted" value="record(s) deleted" />
+    <phrase id="recordinserted" value="record(s) inserted" />
+    <phrase id="recordupdated" value="record(s) updated" />
+    <phrase id="recordsperpage" value="Page size" client="1" />
+    <!-- v2017 -->
+    <phrase id="register" value="Register" client="1" />
+    <!-- v2020 -->
+    <phrase id="registerbtn" value="Register" />
+    <phrase id="registersuccess" value="Registration succeeded" />
+    <phrase id="registersuccessactivate" value="Registration succeeded. An email has been sent to your email address, please click the link in the email to activate your account." />
+    <phrase id="registerpage" value="Registration" />
+    <phrase id="relatedrecordrequired" value="You cannot add or update a record because the foreign key value does not exist in the master table '%t'" />
+    <phrase id="relatedrecordexists" value="You cannot delete a record because related records exist in the detail table '%t'" />
+    <phrase id="reloadbtn" value="Reload" client="1" />
+    <!-- v2017 -->
+    <phrase id="reloadlink" value="Reload" />
+    <phrase id="rememberme" value="Remember me" />
+    <phrase id="remove" value="Remove" />
+    <phrase id="replace" value="Replace" />
+    <phrase id="report" value="Report" />
+    <phrase id="resetpwd" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resetpwdmsg" value="Reset Password" />
+    <!-- v2020 -->
+    <phrase id="resendregisteremailbtn" value="Resend registration email" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailsuccess" value="Registration email for user '%u' has been re-sent" />
+    <!-- v12 -->
+    <phrase id="resendregisteremailfailure" value="Failed to re-send register email for user '%u' has failed" />
+    <!-- v12 -->
+    <phrase id="reset" value="Reset" />
+    <phrase id="resetallfilter" value="Reset all filters" class="icon-reset-search ew-icon" />
+    <!-- v2020 (report) -->
+    <phrase id="resetconcurrentuserbtn" value="Reset concurrent user session" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentusersuccess" value="Session for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetconcurrentuserfailure" value="Failed to reset session for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetloginretrybtn" value="Reset login retry count" />
+    <!-- v12 -->
+    <phrase id="resetloginretrysuccess" value="Login retry count for user '%u' has been reset" />
+    <!-- v12 -->
+    <phrase id="resetloginretryfailure" value="Failed to reset login retry count for user '%u'" />
+    <!-- v12 -->
+    <phrase id="resetsearchbtn" value="Reset" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="resetsearch" value="Reset" />
+    <phrase id="rptavg" value="AVG" />
+    <!-- v2020 (report) -->
+    <phrase id="rptcnt" value="COUNT" />
+    <!-- v2020 (report) -->
+    <phrase id="rptdtlrec" value=" detail records" />
+    <!-- v2020 (report) -->
+    <phrase id="rptgrandsummary" value="Grand Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmax" value="MAX" />
+    <!-- v2020 (report) -->
+    <phrase id="rptmin" value="MIN" />
+    <!-- v2020 (report) -->
+    <phrase id="rptpagesummary" value="Page Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsum" value="SUM" />
+    <!-- v2020 (report) -->
+    <phrase id="rptsumhead" value="Summary for %c: %v" />
+    <!-- v2020 (report) -->
+    <phrase id="savebtn" value="Save" client="1" />
+    <!-- v2018 -->
+    <phrase id="savecurrentfilter" value="Save current filter" />
+    <!-- v12 -->
+    <phrase id="saveusername" value="Save my user name" />
+    <!-- Deprecated since v2018 -->
+    <phrase id="search" value="Search" client="1" />
+    <!-- v2017 -->
+    <phrase id="searchbtn" value="Search" client="1" />
+    <!-- v2018 -->
+    <phrase id="searchlink" value="Search" class="fas fa-search ew-icon" />
+    <!-- v2019 -->
+    <phrase id="searchpanel" value="Search Panel" />
+    <!-- v11 -->
+    <phrase id="selectbtn" value="Select" client="1" />
+    <!-- v2017 -->
+    <phrase id="sendemailbtn" value="Send" />
+    <phrase id="sendemailsuccess" value="Email sent successfully" client="1" />
+    <phrase id="sendpwd" value="Send" client="1" />
+    <!-- v2020 -->
+    <phrase id="sequencenumber" value="%s." />
+    <phrase id="servercommunicationerror" value="An error occured while communicating to the server." />
+    <!-- v2017 -->
+    <phrase id="sessionwillexpire" value="Your session will expire in %s seconds. Click OK to continue your session." client="1" />
+    <!-- v12 -->
+    <phrase id="sessionexpired" value="Your session has expired." client="1" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredbtn" value="Set password expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredsuccess" value="Password for user '%u' has been set as expired" />
+    <!-- v12 -->
+    <phrase id="setpasswordexpiredfailure" value="Failed to set password for user '%u' as expired" />
+    <!-- v12 -->
+    <phrase id="showallbtn" value="Show all" class="icon-reset-search ew-icon" />
+    <!-- v11 -->
+    <phrase id="showall" value="Show all" />
+    <!-- v11 -->
+    <phrase id="srchlegend" value="" />
+    <phrase id="success" value="Success" client="1" />
+    <!-- v2020 -->
+    <phrase id="summary" value="Summary" />
+    <!-- v2020 (report) -->
+    <phrase id="summarycolon" value=": " />
+    <!-- v2020 (report) -->
+    <phrase id="table" value="TABLE" />
+    <phrase id="tableorview" value="Tables" client="1" />
+    <!-- v2018 -->
+    <phrase id="tasks" value="Tasks" />
+    <!-- v2020 (report) -->
+    <phrase id="tbltypetable" value="Table: " />
+    <phrase id="tbltypeview" value="View: " />
+    <phrase id="tbltypecustomview" value="Custom View: " />
+    <phrase id="tbltypereport" value="Report: " />
+    <phrase id="to" value="to" />
+    <phrase id="top" value="Top" />
+    <!-- v2020 (report) -->
+    <phrase id="total" value="Total" />
+    <phrase id="unauthorizeduserid" value="The current user (%c) is not authorized to assign the user ID (%u)." />
+    <phrase id="unauthorizedparentuserid" value="The current user (%c) is not authorized to assign the parent user ID (%p)." />
+    <phrase id="unauthorizedmasteruserid" value="The current user (%c) is not authorized to insert the record. Master filter: %f" />
+    <phrase id="update" value="Update" />
+    <phrase id="updatebtn" value="Update" client="1" />
+    <!-- v2017 -->
+    <phrase id="updatecancelled" value="Update cancelled" />
+    <phrase id="updatefailed" value="Update failed" />
+    <phrase id="updatelink" value="Update" class="fas fa-check ew-icon" />
+    <!-- v2019 -->
+    <phrase id="updateselectall" value="Select all" />
+    <!-- v11 -->
+    <phrase id="updateselectedlink" value="Update Selected Records" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="updatesuccess" value="Update succeeded" />
+    <phrase id="uploading" value="Uploading..." client="1" />
+    <phrase id="uploadstart" value="Start" client="1" />
+    <phrase id="uploadcancel" value="Cancel" client="1" />
+    <phrase id="uploaddelete" value="Delete" client="1" />
+    <phrase id="uploadoverwrite" value="Overwrite old file?" client="1" />
+    <phrase id="uploaderrmsg1" value="The uploaded file exceeds the upload_max_filesize directive in php.ini" />
+    <phrase id="uploaderrmsg2" value="The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the HTML form" />
+    <phrase id="uploaderrmsg3" value="The uploaded file was only partially uploaded" />
+    <phrase id="uploaderrmsg4" value="No file was uploaded" />
+    <phrase id="uploaderrmsg6" value="Missing a temporary folder" />
+    <phrase id="uploaderrmsg7" value="Failed to write file to disk" />
+    <phrase id="uploaderrmsg8" value="A PHP extension stopped the file upload" />
+    <phrase id="uploaderrmsgpostmaxsize" value="The uploaded file exceeds the post_max_size directive in php.ini" />
+    <phrase id="uploaderrmsgmaxfilesize" value="File is too big" client="1" />
+    <phrase id="uploaderrmsgminfilesize" value="File is too small" client="1" />
+    <phrase id="uploaderrmsgacceptfiletypes" value="File type not allowed" client="1" />
+    <phrase id="uploaderrmsgmaxnumberoffiles" value="Maximum number of files exceeded" client="1" />
+    <phrase id="uploaderrmsgmaxwidth" value="Image exceeds maximum width" />
+    <phrase id="uploaderrmsgminwidth" value="Image requires a minimum width" />
+    <phrase id="uploaderrmsgmaxheight" value="Image exceeds maximum height" />
+    <phrase id="uploaderrmsgminheight" value="Image requires a minimum height" />
+    <phrase id="uploaderrmsgmaxfilelength" value="Total length of file names exceeds field length" client="1" />
+    <phrase id="useradministrator" value="Administrator" client="1" />
+    <!-- v12 -->
+    <phrase id="useranonymous" value="Anonymous" client="1" />
+    <!-- v12 -->
+    <phrase id="userdefault" value="Default" client="1" />
+    <!-- v12 -->
+    <phrase id="useremail" value="Email" />
+    <phrase id="userexists" value="User already exists" />
+    <phrase id="userlevel" value="User Level: " />
+    <phrase id="userleveladministratorname" value="User level name for user level -1 must be 'Administrator'" client="1" />
+    <phrase id="userlevelanonymousname" value="User level name for user level -2 must be 'Anonymous'" client="1" />
+    <!-- v12 -->
+    <phrase id="userlevelpermission" value="User Level Permissions" />
+    <phrase id="userlevelidinteger" value="User Level ID must be integer" client="1" />
+    <phrase id="userleveldefaultname" value="User level name for user level 0 must be 'Default'" client="1" />
+    <phrase id="userlevelidincorrect" value="User defined User Level ID must be larger than 0" client="1" />
+    <phrase id="userlevelnameincorrect" value="User defined User Level name cannot be 'Administrator' or 'Default'" client="1" />
+    <phrase id="userloggedin" value="User '%u' already logged in" />
+    <phrase id="username" value="User Name" />
+    <phrase id="usernotfound" value="User '%u' not found" />
+    <!-- v2018 -->
+    <phrase id="userprofilecorrupted" value="User profile is corrupted. Please logout and login again" />
+    <phrase id="valuenotexist" value="Value does not exist" client="1" />
+    <!-- v11 -->
+    <phrase id="view" value="View" />
+    <phrase id="viewimagegallery" value="Click to view image" />
+    <!-- v12 -->
+    <phrase id="viewlink" value="View" class="icon-view ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpageaddlink" value="Add" class="fas fa-plus ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagecopylink" value="Copy" class="icon-copy ew-icon" />
+    <!-- v11 -->
+    <phrase id="viewpagedeletelink" value="Delete" class="fas fa-trash ew-icon" />
+    <!-- v2019 -->
+    <phrase id="viewpagedetaillink" value="" />
+    <phrase id="viewpageeditlink" value="Edit" class="icon-edit ew-icon" />
+    <!-- v11 -->
+    <phrase id="warning" value="Warning" client="1" />
+    <!-- v2020 -->
+    <phrase id="week" value="Week" />
+    <!-- v2020 (report) -->
+    <phrase id="wrongfiletype" value="File type is not allowed." client="1" />
+    <phrase id="year" value="Year" />
+    <!-- v2020 (report) -->
+    <phrase id="=" value="&amp;nbsp;" />
+    <!-- v12 -->
+    <phrase id="equal" value="=" />
+    <!-- v12 -->
+    <phrase id="&lt;&gt;" value="&amp;lt;&amp;gt;" />
+    <phrase id="&lt;" value="&amp;lt;" />
+    <phrase id="&lt;=" value="&amp;lt;=" />
+    <phrase id="&gt;" value="&amp;gt;" />
+    <phrase id="&gt;=" value="&amp;gt;=" />
+    <phrase id="like" value="contains" />
+    <phrase id="not like" value="does not contain" />
+    <!-- v11.0.3 -->
+    <phrase id="starts with" value="starts with" />
+    <phrase id="ends with" value="ends with" />
+    <phrase id="is null" value="is null" />
+    <phrase id="is not null" value="is not null" />
+    <phrase id="between" value="between" />
+    <phrase id="and" value="and" />
+    <phrase id="or" value="or" />
+    <phrase id="am" value="AM" client="1" />
+    <!-- v2017 -->
+    <phrase id="pm" value="PM" client="1" />
+    <!-- v2017 -->
+    <!-- Menu Prefix/Suffix (v2020 (report)) -->
+    <phrase id="simplereportmenuitemprefix" value="" />
+    <phrase id="simplereportmenuitemsuffix" value="" />
+    <phrase id="detailsummaryreportmenuitemprefix" value="" />
+    <phrase id="detailsummaryreportmenuitemsuffix" value="" />
+    <phrase id="crosstabreportmenuitemprefix" value="" />
+    <phrase id="crosstabreportmenuitemsuffix" value="" />
+    <phrase id="chartreportmenuitemprefix" value="" />
+    <phrase id="chartreportmenuitemsuffix" value="" />
+    <!-- Advanced Filter (v2020 (report)) -->
+    <phrase id="future" value="Future" />
+    <phrase id="past" value="Past" />
+    <phrase id="last14days" value="Last 14 days" />
+    <phrase id="last30days" value="Last 30 days" />
+    <phrase id="last7days" value="Last 7 days" />
+    <phrase id="next14days" value="Next 14 days" />
+    <phrase id="next30days" value="Next 30 days" />
+    <phrase id="next7days" value="Next 7 days" />
+    <phrase id="today" value="Today" />
+    <phrase id="tomorrow" value="Tomorrow" />
+    <phrase id="yesterday" value="Yesterday" />
+    <phrase id="lastmonth" value="Last month" />
+    <phrase id="nextmonth" value="Next month" />
+    <phrase id="thismonth" value="This month" />
+    <phrase id="lasttwoweeks" value="Last two weeks" />
+    <phrase id="lastweek" value="Last week" />
+    <phrase id="nexttwoweeks" value="Next two weeks" />
+    <phrase id="nextweek" value="Next week" />
+    <phrase id="thisweek" value="This week" />
+    <phrase id="lastyear" value="Last year" />
+    <phrase id="nextyear" value="Next year" />
+    <phrase id="thisyear" value="This year" />
+  </global>
+  <project>
+    <phrase id="bodytitle" value="SIGAP YWH" />
+    <phrase id="footertext" value="&amp;copy;2022 PT PrimaVisi." />
+    <menu id="59">
+      <phrase id="menutext" value="barangnew" />
+    </menu>
+    <menu id="58">
+      <phrase id="menutext" value="barang" />
+    </menu>
+    <menu id="60">
+      <phrase id="menutext" value="hapus barang" />
+    </menu>
+    <menu id="61">
+      <phrase id="menutext" value="hapus barangnew" />
+    </menu>
+    <menu id="40">
+      <phrase id="menutext" value="Pegawai" />
+    </menu>
+    <menu id="1">
+      <phrase id="menutext" value="Absen" />
+    </menu>
+    <menu id="2">
+      <phrase id="menutext" value="Absen Detil" />
+    </menu>
+    <menu id="163">
+      <phrase id="menutext" value="Unit TK" />
+    </menu>
+    <menu id="250">
+      <phrase id="menutext" value="Potongan TK" />
+    </menu>
+    <menu id="19">
+      <phrase id="menutext" value="Gaji TK" />
+    </menu>
+    <menu id="258">
+      <phrase id="menutext" value="Detil Gaji Guru TK" />
+    </menu>
+    <menu id="259">
+      <phrase id="menutext" value="Detil Gaji TU TK" />
+    </menu>
+    <menu id="257">
+      <phrase id="menutext" value="Detil Gaji karyawan TK" />
+    </menu>
+    <menu id="232">
+      <phrase id="menutext" value="Gaji Guru TK" />
+    </menu>
+    <menu id="231">
+      <phrase id="menutext" value="Gaji TU TK" />
+    </menu>
+    <menu id="230">
+      <phrase id="menutext" value="Gaji Karyawan TK" />
+    </menu>
+    <menu id="233">
+      <phrase id="menutext" value="Total Gaji Guru TK" />
+    </menu>
+    <menu id="234">
+      <phrase id="menutext" value="Total Gaji TU TK" />
+    </menu>
+    <menu id="235">
+      <phrase id="menutext" value="Total Gaji Karyawan TK" />
+    </menu>
+    <menu id="223">
+      <phrase id="menutext" value="Unit SD" />
+    </menu>
+    <menu id="44">
+      <phrase id="menutext" value="potongan SD" />
+    </menu>
+    <menu id="261">
+      <phrase id="menutext" value="Detil Gaji Guru SD" />
+    </menu>
+    <menu id="262">
+      <phrase id="menutext" value="Detil Gaji TU SD" />
+    </menu>
+    <menu id="260">
+      <phrase id="menutext" value="Detil Gaji Karyawan SD" />
+    </menu>
+    <menu id="9">
+      <phrase id="menutext" value="Gaji Guru SD" />
+    </menu>
+    <menu id="227">
+      <phrase id="menutext" value="gaji TU SD" />
+    </menu>
+    <menu id="226">
+      <phrase id="menutext" value="Gaji Karyawan SD" />
+    </menu>
+    <menu id="165">
+      <phrase id="menutext" value="Total Gaji Guru SD" />
+    </menu>
+    <menu id="228">
+      <phrase id="menutext" value="Total Gaji TU SD" />
+    </menu>
+    <menu id="229">
+      <phrase id="menutext" value="Total Gaji Karyawan SD" />
+    </menu>
+    <menu id="224">
+      <phrase id="menutext" value="Unit SMP" />
+    </menu>
+    <menu id="45">
+      <phrase id="menutext" value="Potongan SMP" />
+    </menu>
+    <menu id="17">
+      <phrase id="menutext" value="Gaji SMP" />
+    </menu>
+    <menu id="268">
+      <phrase id="menutext" value="Detil Gaji Guru SMP" />
+    </menu>
+    <menu id="265">
+      <phrase id="menutext" value="Detil Gaji Karyawan SMP" />
+    </menu>
+    <menu id="271">
+      <phrase id="menutext" value="Detil Gaji TU SMP" />
+    </menu>
+    <menu id="237">
+      <phrase id="menutext" value="Gaji Guru SMP" />
+    </menu>
+    <menu id="238">
+      <phrase id="menutext" value="Gaji TU SMP" />
+    </menu>
+    <menu id="236">
+      <phrase id="menutext" value="Gaji Karyawan SMP" />
+    </menu>
+    <menu id="239">
+      <phrase id="menutext" value="Total Gaji SMP" />
+    </menu>
+    <menu id="240">
+      <phrase id="menutext" value="Total Gaji TU SMP" />
+    </menu>
+    <menu id="241">
+      <phrase id="menutext" value="Total Gaji Karyawan SMP" />
+    </menu>
+    <menu id="164">
+      <phrase id="menutext" value="Unit SMA" />
+    </menu>
+    <menu id="11">
+      <phrase id="menutext" value="Gaji SD" />
+    </menu>
+    <menu id="12">
+      <phrase id="menutext" value="Gaji SD Detil" />
+    </menu>
+    <menu id="13">
+      <phrase id="menutext" value="Gaji SMA" />
+    </menu>
+    <menu id="14">
+      <phrase id="menutext" value="Gaji SMA Detil" />
+    </menu>
+    <menu id="16">
+      <phrase id="menutext" value="Gaji SMK Detil" />
+    </menu>
+    <menu id="248">
+      <phrase id="menutext" value="Potongan SMA" />
+    </menu>
+    <menu id="266">
+      <phrase id="menutext" value="Detil Gaji Guru SMA" />
+    </menu>
+    <menu id="269">
+      <phrase id="menutext" value="Detil Gaji TU SMA" />
+    </menu>
+    <menu id="263">
+      <phrase id="menutext" value="Detil Gaji Karyawan SMA" />
+    </menu>
+    <menu id="18">
+      <phrase id="menutext" value="Gaji SMP Detil" />
+    </menu>
+    <menu id="20">
+      <phrase id="menutext" value="Gajitk Detil" />
+    </menu>
+    <menu id="244">
+      <phrase id="menutext" value="Gaji Guru SMA" />
+    </menu>
+    <menu id="246">
+      <phrase id="menutext" value="Gaji TU SMA" />
+    </menu>
+    <menu id="242">
+      <phrase id="menutext" value="Gaji Karyawan SMA" />
+    </menu>
+    <menu id="251">
+      <phrase id="menutext" value="Total Gaji Guru SMA" />
+    </menu>
+    <menu id="252">
+      <phrase id="menutext" value="Total Gaji TU SMA" />
+    </menu>
+    <menu id="253">
+      <phrase id="menutext" value="Total Gaji Karyawan SMA" />
+    </menu>
+    <menu id="225">
+      <phrase id="menutext" value="Unit SMK" />
+    </menu>
+    <menu id="15">
+      <phrase id="menutext" value="Gaji SMK" />
+    </menu>
+    <menu id="249">
+      <phrase id="menutext" value="Potongan SMK" />
+    </menu>
+    <menu id="267">
+      <phrase id="menutext" value="Detil Gaji Guru SMK" />
+    </menu>
+    <menu id="270">
+      <phrase id="menutext" value="Detil Gaji TU SMK" />
+    </menu>
+    <menu id="264">
+      <phrase id="menutext" value="Detil Gaji Karyawan SMK" />
+    </menu>
+    <menu id="245">
+      <phrase id="menutext" value="Gaji Guru SMK" />
+    </menu>
+    <menu id="247">
+      <phrase id="menutext" value="Gaji TU SMK" />
+    </menu>
+    <menu id="243">
+      <phrase id="menutext" value="Gaji Karyawan SMK" />
+    </menu>
+    <menu id="254">
+      <phrase id="menutext" value="Total Gaji Guru SMK" />
+    </menu>
+    <menu id="255">
+      <phrase id="menutext" value="Total Gaji TU SMK" />
+    </menu>
+    <menu id="256">
+      <phrase id="menutext" value="Total Gaji Karyawan SMK" />
+    </menu>
+    <menu id="119">
+      <phrase id="menutext" value="Keperluan Pegawai" />
+    </menu>
+    <menu id="24">
+      <phrase id="menutext" value="Izin" />
+    </menu>
+    <menu id="21">
+      <phrase id="menutext" value="Gaji Tunjangan" />
+    </menu>
+    <menu id="5">
+      <phrase id="menutext" value="Berita" />
+    </menu>
+    <menu id="32">
+      <phrase id="menutext" value="Komentar" />
+    </menu>
+    <menu id="8">
+      <phrase id="menutext" value="Dinas Luar" />
+    </menu>
+    <menu id="48">
+      <phrase id="menutext" value="Terlambat" />
+    </menu>
+    <menu id="33">
+      <phrase id="menutext" value="Lembur" />
+    </menu>
+    <menu id="37">
+      <phrase id="menutext" value="Pegawai Dokumen" />
+    </menu>
+    <menu id="38">
+      <phrase id="menutext" value="Pegawai Keluarga" />
+    </menu>
+    <menu id="39">
+      <phrase id="menutext" value="Pegawai Skill" />
+    </menu>
+    <menu id="41">
+      <phrase id="menutext" value="Penempatan" />
+    </menu>
+    <menu id="42">
+      <phrase id="menutext" value="Pengetahuan" />
+    </menu>
+    <menu id="47">
+      <phrase id="menutext" value="Reimbursh" />
+    </menu>
+    <menu id="49">
+      <phrase id="menutext" value="testtable" />
+    </menu>
+    <menu id="50">
+      <phrase id="menutext" value="totalgaji" />
+    </menu>
+    <menu id="52">
+      <phrase id="menutext" value="Uang Muka" />
+    </menu>
+    <menu id="7">
+      <phrase id="menutext" value="Daftar Barang" />
+    </menu>
+    <menu id="51">
+      <phrase id="menutext" value="Pendidikan" />
+    </menu>
+    <menu id="10">
+      <phrase id="menutext" value="Gaji Pokok" />
+    </menu>
+    <menu id="25">
+      <phrase id="menutext" value="Jabatan" />
+    </menu>
+    <menu id="56">
+      <phrase id="menutext" value="Master Data" />
+    </menu>
+    <menu id="46">
+      <phrase id="menutext" value="Proyek" />
+    </menu>
+    <menu id="55">
+      <phrase id="menutext" value="M Setuju" />
+    </menu>
+    <menu id="23">
+      <phrase id="menutext" value="Ijazah" />
+    </menu>
+    <menu id="26">
+      <phrase id="menutext" value="Jenis Barang" />
+    </menu>
+    <menu id="29">
+      <phrase id="menutext" value="jenis grup ilmu" />
+    </menu>
+    <menu id="22">
+      <phrase id="menutext" value="Gender" />
+    </menu>
+    <menu id="30">
+      <phrase id="menutext" value="jenis ijin" />
+    </menu>
+    <menu id="31">
+      <phrase id="menutext" value="jenis lembur" />
+    </menu>
+    <menu id="6">
+      <phrase id="menutext" value="bulan" />
+    </menu>
+    <menu id="3">
+      <phrase id="menutext" value="Agama" />
+    </menu>
+    <menu id="28">
+      <phrase id="menutext" value="jenis grup berita" />
+    </menu>
+    <menu id="27">
+      <phrase id="menutext" value="jenis dinasluar" />
+    </menu>
+    <menu id="36">
+      <phrase id="menutext" value="Master Tidak Hadir" />
+    </menu>
+    <menu id="35">
+      <phrase id="menutext" value="Master Sakit" />
+    </menu>
+    <menu id="34">
+      <phrase id="menutext" value="Master Pulang Cepat" />
+    </menu>
+    <menu id="120">
+      <phrase id="menutext" value="Master Pendidikan" />
+    </menu>
+    <menu id="273">
+      <phrase id="menutext" value="Jenis Jabatan" />
+    </menu>
+    <menu id="272">
+      <phrase id="menutext" value="Tunjangan Tugas Tambahan" />
+    </menu>
+    <menu id="274">
+      <phrase id="menutext" value="Tunjangan Berkala" />
+    </menu>
+    <menu id="276">
+      <phrase id="menutext" value="Setting Kehadiran" />
+    </menu>
+    <menu id="277">
+      <phrase id="menutext" value="Gaji Pokok TU" />
+    </menu>
+    <menu id="278">
+      <phrase id="menutext" value="Sertifikasi" />
+    </menu>
+    <menu id="279">
+      <phrase id="menutext" value="M Tambahan Tugas" />
+    </menu>
+    <menu id="280">
+      <phrase id="menutext" value="Setting Piket" />
+    </menu>
+    <menu id="281">
+      <phrase id="menutext" value="Test Api" />
+    </menu>
+    <menu id="57">
+      <phrase id="menutext" value="Setting" />
+    </menu>
+    <menu id="4">
+      <phrase id="menutext" value="Audittrail" />
+    </menu>
+    <menu id="54">
+      <phrase id="menutext" value="userlevels" />
+    </menu>
+    <menu id="53">
+      <phrase id="menutext" value="userlevelpermissions" />
+    </menu>
+    <table id="absen">
+      <phrase id="tblcaption" value="Absen" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="jumlah_hari_kerja">
+        <phrase id="fldcaption" value="Jumlah Hari kerja" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createuser">
+        <phrase id="fldcaption" value="Create User" />
+      </field>
+    </table>
+    <table id="absen_detil">
+      <phrase id="tblcaption" value="Absen Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="pegawai" />
+      </field>
+      <field id="masuk">
+        <phrase id="fldcaption" value="masuk" />
+      </field>
+      <field id="absen">
+        <phrase id="fldcaption" value="absen" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="ijin" />
+      </field>
+      <field id="cuti">
+        <phrase id="fldcaption" value="cuti" />
+      </field>
+      <field id="dinas_luar">
+        <phrase id="fldcaption" value="dinas luar" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="terlambat" />
+      </field>
+    </table>
+    <table id="agama">
+      <phrase id="tblcaption" value="Agama" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="name" />
+      </field>
+    </table>
+    <table id="audittrail">
+      <phrase id="tblcaption" value="Audittrail" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="script">
+        <phrase id="fldcaption" value="Script" />
+      </field>
+      <field id="user">
+        <phrase id="fldcaption" value="User" />
+      </field>
+      <field id="_action">
+        <phrase id="fldcaption" value="Action" />
+      </field>
+      <field id="_table">
+        <phrase id="fldcaption" value="Table" />
+      </field>
+      <field id="field">
+        <phrase id="fldcaption" value="Field" />
+      </field>
+      <field id="keyvalue">
+        <phrase id="fldcaption" value="Key Value" />
+      </field>
+      <field id="oldvalue">
+        <phrase id="fldcaption" value="Old Value" />
+      </field>
+      <field id="newvalue">
+        <phrase id="fldcaption" value="New Value" />
+      </field>
+    </table>
+    <table id="barang">
+      <phrase id="tblcaption" value="barang" />
+      <field id="kode_barang">
+        <phrase id="fldcaption" value="Kode Barang" />
+      </field>
+      <field id="nama_barang">
+        <phrase id="fldcaption" value="Nama Barang" />
+      </field>
+    </table>
+    <table id="barangnew">
+      <phrase id="tblcaption" value="barangnew" />
+      <field id="kode_barang">
+        <phrase id="fldcaption" value="kode barang" />
+      </field>
+      <field id="nama_barang">
+        <phrase id="fldcaption" value="nama barang" />
+      </field>
+    </table>
+    <table id="berita">
+      <phrase id="tblcaption" value="Berita" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="grup">
+        <phrase id="fldcaption" value="Grup" />
+      </field>
+      <field id="judul">
+        <phrase id="fldcaption" value="Judul" />
+      </field>
+      <field id="berita">
+        <phrase id="fldcaption" value="Berita" />
+      </field>
+      <field id="gambar">
+        <phrase id="fldcaption" value="Gambar" />
+      </field>
+      <field id="video">
+        <phrase id="fldcaption" value="Video" />
+      </field>
+      <field id="c_by">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="c_date">
+        <phrase id="fldcaption" value="Create Date" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="bulan">
+      <phrase id="tblcaption" value="bulan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nourut">
+        <phrase id="fldcaption" value="No Urut" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="daftarbarang">
+      <phrase id="tblcaption" value="Daftar Barang" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pemegang">
+        <phrase id="fldcaption" value="Pemegang" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="sepsifikasi">
+        <phrase id="fldcaption" value="Sepsifikasi" />
+      </field>
+      <field id="tgl_terima">
+        <phrase id="fldcaption" value="Tanggal Terima" />
+      </field>
+      <field id="tgl_beli">
+        <phrase id="fldcaption" value="Tanggal Beli" />
+      </field>
+      <field id="harga">
+        <phrase id="fldcaption" value="Harga" />
+      </field>
+      <field id="dokumen">
+        <phrase id="fldcaption" value="Dokumen" />
+      </field>
+      <field id="foto">
+        <phrase id="fldcaption" value="Foto" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="deskripsi">
+        <phrase id="fldcaption" value="Deskripsi" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+    </table>
+    <table id="dinasluar">
+      <phrase id="tblcaption" value="Dinas Luar" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="pm">
+        <phrase id="fldcaption" value="Project Manager" />
+      </field>
+      <field id="proyek">
+        <phrase id="fldcaption" value="Proyek" />
+      </field>
+      <field id="tgl">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="tgl_dl_awal">
+        <phrase id="fldcaption" value="Tanggal Awal" />
+      </field>
+      <field id="tgl_dl_akhir">
+        <phrase id="fldcaption" value="Tanggal Akhir" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="disetujui">
+        <phrase id="fldcaption" value="Disetujui" />
+        <phrase id="fldtagvalue1" value="ya" />
+        <phrase id="fldtagcaption1" value="YA" />
+        <phrase id="fldtagvalue2" value="tidak" />
+        <phrase id="fldtagcaption2" value="Tidak" />
+      </field>
+      <field id="dokumen">
+        <phrase id="fldcaption" value="Dokumen" />
+      </field>
+    </table>
+    <table id="gaji">
+      <phrase id="tblcaption" value="Gaji Guru SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="jenis_guru">
+        <phrase id="fldcaption" value="Jenis Guru" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="periode">
+        <phrase id="fldcaption" value="Periode" />
+      </field>
+      <field id="tunjangan_periode">
+        <phrase id="fldcaption" value="Tunjangan Periode" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="Value Kehadiran" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="total_gapok">
+        <phrase id="fldcaption" value="total gapok" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_karyawan_sd">
+      <phrase id="tblcaption" value="Gaji Karyawan SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="by" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="Jam Pelajaran" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_karyawan_sma">
+      <phrase id="tblcaption" value="Gaji Karyawan SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gaji_karyawan_smk">
+      <phrase id="tblcaption" value="Gaji Karyawan SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gaji_karyawan_smp">
+      <phrase id="tblcaption" value="Gaji Karyawan SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gaji_karyawan_tk">
+      <phrase id="tblcaption" value="Gaji Karyawan TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gaji_pokok">
+      <phrase id="tblcaption" value="Gaji Pokok" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="gaji_sma">
+      <phrase id="tblcaption" value="Gaji Guru SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Jabatan Guru" />
+      </field>
+      <field id="jenis_guru">
+        <phrase id="fldcaption" value="Sertifikasi" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tambahan Tugas" />
+      </field>
+      <field id="periode">
+        <phrase id="fldcaption" value="Periode" />
+      </field>
+      <field id="tunjangan_periode">
+        <phrase id="fldcaption" value="Tunjangan Periode" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="Value Kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="Jumlah Pelajaran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="total_gapok">
+        <phrase id="fldcaption" value="Total Gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_smk">
+      <phrase id="tblcaption" value="Gaji Guru SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type Guru" />
+      </field>
+      <field id="jenis_guru">
+        <phrase id="fldcaption" value="Jenis Guru" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tambahan" />
+      </field>
+      <field id="periode">
+        <phrase id="fldcaption" value="Periode" />
+      </field>
+      <field id="tunjangan_periode">
+        <phrase id="fldcaption" value="Tunjangan Periode" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="value kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="Jam Pelajaran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="total_gapok">
+        <phrase id="fldcaption" value="total gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_smp">
+      <phrase id="tblcaption" value="Gaji Guru SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="jabatan" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="lama kerja" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type Guru" />
+      </field>
+      <field id="jenis_guru">
+        <phrase id="fldcaption" value="Jenis Guru" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="periode">
+        <phrase id="fldcaption" value="Periode" />
+      </field>
+      <field id="tunjangan_periode">
+        <phrase id="fldcaption" value="Tunjangan Periode" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="Value Kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="Jam Pelajaran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="total_gapok">
+        <phrase id="fldcaption" value="total gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_tk">
+      <phrase id="tblcaption" value="Gaji Guru TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="jenis_guru">
+        <phrase id="fldcaption" value="Jenis Guru" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="periode">
+        <phrase id="fldcaption" value="Periode" />
+      </field>
+      <field id="tunjangan_periode">
+        <phrase id="fldcaption" value="Tunjangan Periode" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="value kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="Jam Pelajaran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="total_gapok">
+        <phrase id="fldcaption" value="Total Gapok" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_tu_sd">
+      <phrase id="tblcaption" value="gaji TU SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="Type Jabatan" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tambahan" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Month" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="ijasah">
+        <phrase id="fldcaption" value="ijasah" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="tunjangan2">
+        <phrase id="fldcaption" value="tunjangan 2" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_tu_sma">
+      <phrase id="tblcaption" value="Gaji TU SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="type jabatan" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="tambahan" />
+      </field>
+      <field id="ijasah">
+        <phrase id="fldcaption" value="ijasah" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="tunjangan2">
+        <phrase id="fldcaption" value="tunjangan 2" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_tu_smk">
+      <phrase id="tblcaption" value="Gaji TU SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="PID" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+      <field id="ijasah">
+        <phrase id="fldcaption" value="ijasah" />
+      </field>
+      <field id="tunjangan2">
+        <phrase id="fldcaption" value="tunjangan 2" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="tambahan" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="type jabatan" />
+      </field>
+    </table>
+    <table id="gaji_tu_smp">
+      <phrase id="tblcaption" value="Gaji TU SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="by" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="ijasah">
+        <phrase id="fldcaption" value="Ijasah" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="Type Jabatan" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tambahan" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="tunjangan2">
+        <phrase id="fldcaption" value="tunjangan Khusus" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gaji_tu_tk">
+      <phrase id="tblcaption" value="Gaji TU TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="ijasah">
+        <phrase id="fldcaption" value="Ijasah" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="Type Jabatan" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="tambahan" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="Value Lembur" />
+      </field>
+      <field id="value_reward">
+        <phrase id="fldcaption" value="Value Reward" />
+      </field>
+      <field id="value_inval">
+        <phrase id="fldcaption" value="Value Inval" />
+      </field>
+      <field id="piket_count">
+        <phrase id="fldcaption" value="Piket Count" />
+      </field>
+      <field id="value_piket">
+        <phrase id="fldcaption" value="Value Piket" />
+      </field>
+      <field id="tugastambahan">
+        <phrase id="fldcaption" value="Tugas Tambahan" />
+      </field>
+      <field id="tj_jabatan">
+        <phrase id="fldcaption" value=" Tunjangan Jabatan" />
+      </field>
+      <field id="tunjangan2">
+        <phrase id="fldcaption" value="Tunjangan Khusus" />
+      </field>
+      <field id="potongan">
+        <phrase id="fldcaption" value="Potongan" />
+      </field>
+      <field id="sub_total">
+        <phrase id="fldcaption" value="Sub Total" />
+      </field>
+      <field id="penyesuaian">
+        <phrase id="fldcaption" value="Penyesuaian" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="gajisd">
+      <phrase id="tblcaption" value="Gaji SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="createby" />
+      </field>
+    </table>
+    <table id="gajisd_detil">
+      <phrase id="tblcaption" value="Gaji SD Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai_id">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="masakerja">
+        <phrase id="fldcaption" value="Masa Kerja" />
+      </field>
+      <field id="jumngajar">
+        <phrase id="fldcaption" value="Jumlah Ngajar" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="tunjangan_wkosis">
+        <phrase id="fldcaption" value="Tunjangan Osis" />
+      </field>
+      <field id="nominal_baku">
+        <phrase id="fldcaption" value="Nominal Baku" />
+      </field>
+      <field id="baku">
+        <phrase id="fldcaption" value="Baku" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="prestasi">
+        <phrase id="fldcaption" value="Prestasi" />
+      </field>
+      <field id="jumlahgaji">
+        <phrase id="fldcaption" value="Jumlah Gaji" />
+      </field>
+      <field id="jumgajitotal">
+        <phrase id="fldcaption" value="Jumlah Gaji Total" />
+      </field>
+      <field id="potongan1">
+        <phrase id="fldcaption" value="Potongan 1" />
+      </field>
+      <field id="potongan2">
+        <phrase id="fldcaption" value="Potongan 2" />
+      </field>
+      <field id="jumlahterima">
+        <phrase id="fldcaption" value="Jumlah Terima" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gajisma">
+      <phrase id="tblcaption" value="Gaji SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+    </table>
+    <table id="gajisma_detil">
+      <phrase id="tblcaption" value="Gaji SMA Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai_id">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="masakerja">
+        <phrase id="fldcaption" value="Masa Kerja" />
+      </field>
+      <field id="jumngajar">
+        <phrase id="fldcaption" value="Jumlah Mengajar" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="tunjangan_wkosis">
+        <phrase id="fldcaption" value="Tunjangan WK Osis" />
+      </field>
+      <field id="nominal_baku">
+        <phrase id="fldcaption" value="Nominal Baku" />
+      </field>
+      <field id="baku">
+        <phrase id="fldcaption" value="Baku" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="prestasi">
+        <phrase id="fldcaption" value="Prestasi" />
+      </field>
+      <field id="jumlahgaji">
+        <phrase id="fldcaption" value="Jumlah Gaji" />
+      </field>
+      <field id="jumgajitotal">
+        <phrase id="fldcaption" value="Jumlah Gaji Total" />
+      </field>
+      <field id="potongan1">
+        <phrase id="fldcaption" value="Potongan 1" />
+      </field>
+      <field id="potongan2">
+        <phrase id="fldcaption" value="Potongan 2" />
+      </field>
+      <field id="jumlahterima">
+        <phrase id="fldcaption" value="Jumlah Terima" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gajismk">
+      <phrase id="tblcaption" value="Gaji SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+    </table>
+    <table id="gajismk_detil">
+      <phrase id="tblcaption" value="Gaji SMK Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai_id">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="jabatan" />
+      </field>
+      <field id="masakerja">
+        <phrase id="fldcaption" value="Masa Kerja" />
+      </field>
+      <field id="jumngajar">
+        <phrase id="fldcaption" value="Jumlah Mengajar" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="tunjangan_wkosis">
+        <phrase id="fldcaption" value="Tunjangan WK Osis" />
+      </field>
+      <field id="nominal_baku">
+        <phrase id="fldcaption" value="Nominal baku" />
+      </field>
+      <field id="baku">
+        <phrase id="fldcaption" value="Baku" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="prestasi">
+        <phrase id="fldcaption" value="Prestasi" />
+      </field>
+      <field id="jumlahgaji">
+        <phrase id="fldcaption" value="Jumlah Gaji" />
+      </field>
+      <field id="jumgajitotal">
+        <phrase id="fldcaption" value="Jumlah Gaji Total" />
+      </field>
+      <field id="potongan1">
+        <phrase id="fldcaption" value="Potongan 1" />
+      </field>
+      <field id="potongan2">
+        <phrase id="fldcaption" value="Potongan 2" />
+      </field>
+      <field id="jumlahterima">
+        <phrase id="fldcaption" value="Jumlah Terima" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gajismp">
+      <phrase id="tblcaption" value="Gaji SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+    </table>
+    <table id="gajismp_detil">
+      <phrase id="tblcaption" value="Gaji SMP Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai_id">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="masakerja">
+        <phrase id="fldcaption" value="masakerja" />
+      </field>
+      <field id="jumngajar">
+        <phrase id="fldcaption" value="Jumlah Mengajar" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="tunjangan_wkosis">
+        <phrase id="fldcaption" value="Tunjangan WK Osis" />
+      </field>
+      <field id="nominal_baku">
+        <phrase id="fldcaption" value="Nominal Baku" />
+      </field>
+      <field id="baku">
+        <phrase id="fldcaption" value="Baku" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="prestasi">
+        <phrase id="fldcaption" value="Prestasi" />
+      </field>
+      <field id="jumlahgaji">
+        <phrase id="fldcaption" value="Jumlah Gaji" />
+      </field>
+      <field id="jumgajitotal">
+        <phrase id="fldcaption" value="Jumlah Gaji Total" />
+      </field>
+      <field id="potongan1">
+        <phrase id="fldcaption" value="Potongan 1" />
+      </field>
+      <field id="potongan2">
+        <phrase id="fldcaption" value="Potongan 2" />
+      </field>
+      <field id="jumlahterima">
+        <phrase id="fldcaption" value="Jumlah Terima" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gajitk">
+      <phrase id="tblcaption" value="Gaji TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+    </table>
+    <table id="gajitk_detil">
+      <phrase id="tblcaption" value="Gajitk Detil" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="pegawai_id">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="masakerja">
+        <phrase id="fldcaption" value="Masa Kerja" />
+      </field>
+      <field id="jumngajar">
+        <phrase id="fldcaption" value="Jumlah Mengajar" />
+      </field>
+      <field id="ijin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="voucher">
+        <phrase id="fldcaption" value="Voucher" />
+      </field>
+      <field id="tunjangan_khusus">
+        <phrase id="fldcaption" value="Tunjangan Khusus" />
+      </field>
+      <field id="tunjangan_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="baku">
+        <phrase id="fldcaption" value="Baku" />
+      </field>
+      <field id="kehadiran">
+        <phrase id="fldcaption" value="Kehadiran" />
+      </field>
+      <field id="prestasi">
+        <phrase id="fldcaption" value="Prestasi" />
+      </field>
+      <field id="jumlahgaji">
+        <phrase id="fldcaption" value="Jumlah Gaji" />
+      </field>
+      <field id="jumgajitotal">
+        <phrase id="fldcaption" value="Jumlah  Gaji Total" />
+      </field>
+      <field id="potongan1">
+        <phrase id="fldcaption" value="Potongan 1" />
+      </field>
+      <field id="potongan2">
+        <phrase id="fldcaption" value="Potongan 2" />
+      </field>
+      <field id="jumlahterima">
+        <phrase id="fldcaption" value="Jumlah Terima" />
+      </field>
+      <field id="jp">
+        <phrase id="fldcaption" value="jp" />
+      </field>
+    </table>
+    <table id="gajitunjangan">
+      <phrase id="tblcaption" value="Gaji Tunjangan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pidjabatan">
+        <phrase id="fldcaption" value="pid Jabatan" />
+      </field>
+      <field id="value_kehadiran">
+        <phrase id="fldcaption" value="Value Kehadiran" />
+      </field>
+      <field id="gapok">
+        <phrase id="fldcaption" value="Gaji Pokok" />
+      </field>
+      <field id="tunjangan_jabatan">
+        <phrase id="fldcaption" value="Tunjangan Jabatan" />
+      </field>
+      <field id="reward">
+        <phrase id="fldcaption" value="Reward" />
+      </field>
+      <field id="lembur">
+        <phrase id="fldcaption" value="Lembur" />
+      </field>
+      <field id="piket">
+        <phrase id="fldcaption" value="Piket" />
+      </field>
+      <field id="inval">
+        <phrase id="fldcaption" value="Inval" />
+      </field>
+      <field id="jam_lebih">
+        <phrase id="fldcaption" value="Jam Lebih" />
+      </field>
+      <field id="tunjangan_khusus">
+        <phrase id="fldcaption" value="Tunjangan Khusus" />
+      </field>
+      <field id="ekstrakuri">
+        <phrase id="fldcaption" value="Ekstrakuriler" />
+      </field>
+    </table>
+    <table id="gender">
+      <phrase id="tblcaption" value="Gender" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="gen">
+        <phrase id="fldcaption" value="Jenis Kelamin" />
+      </field>
+    </table>
+    <table id="hapus_barang">
+      <phrase id="tblcaption" value="hapus barang" />
+      <field id="id_hapus">
+        <phrase id="fldcaption" value="ID Hapus" />
+      </field>
+      <field id="kode_barang">
+        <phrase id="fldcaption" value="Kode Barang" />
+      </field>
+      <field id="nama_barang">
+        <phrase id="fldcaption" value="Nama Barang" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+    </table>
+    <table id="hapus_barangnew">
+      <phrase id="tblcaption" value="hapus barangnew" />
+      <field id="id_hapus">
+        <phrase id="fldcaption" value="id hapus" />
+      </field>
+      <field id="kode_barang">
+        <phrase id="fldcaption" value="kode barang" />
+      </field>
+      <field id="nama_barang">
+        <phrase id="fldcaption" value="nama barang" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="keterangan" />
+      </field>
+    </table>
+    <table id="ijazah">
+      <phrase id="tblcaption" value="Ijazah" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="ijin">
+      <phrase id="tblcaption" value="Izin" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="tgl">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="tgl_ijin_awal">
+        <phrase id="fldcaption" value="Tanggal Izin Awal" />
+      </field>
+      <field id="tgl_ijin_akhir">
+        <phrase id="fldcaption" value="Tanggal Ijin Akhir" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="disetujui">
+        <phrase id="fldcaption" value="disetujui" />
+        <phrase id="fldtagvalue1" value="ya" />
+        <phrase id="fldtagcaption1" value="YA" />
+        <phrase id="fldtagvalue2" value="tidak" />
+        <phrase id="fldtagcaption2" value="Tidak" />
+      </field>
+      <field id="dokumen">
+        <phrase id="fldcaption" value="dokumen" />
+      </field>
+    </table>
+    <table id="jabatan">
+      <phrase id="tblcaption" value="Jabatan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama_jabatan">
+        <phrase id="fldcaption" value="Nama Jabatan" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="Type Jabatan" />
+        <phrase id="fldtagvalue1" value="tu" />
+        <phrase id="fldtagcaption1" value="Tata Usaha" />
+        <phrase id="fldtagvalue2" value="pimpinguru" />
+        <phrase id="fldtagcaption2" value="Pimpinan/Guru" />
+        <phrase id="fldtagvalue3" value="karyawan" />
+        <phrase id="fldtagcaption3" value="Karyawan/Tenaga Penunjang" />
+      </field>
+      <field id="jenjang">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="type_guru">
+        <phrase id="fldcaption" value="Type Guru" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="c_by">
+        <phrase id="fldcaption" value="Creat  by" />
+      </field>
+      <field id="c_date">
+        <phrase id="fldcaption" value="Create Date" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="Update by" />
+      </field>
+      <field id="u_date">
+        <phrase id="fldcaption" value="Update Date" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="jenis_barang">
+      <phrase id="tblcaption" value="Jenis Barang" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="aktif" />
+      </field>
+    </table>
+    <table id="jenis_dinasluar">
+      <phrase id="tblcaption" value="jenis dinasluar" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="jenis_grup_berita">
+      <phrase id="tblcaption" value="jenis grup berita" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="jenis_grup_ilmu">
+      <phrase id="tblcaption" value="jenis grup ilmu" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="jenis_ijin">
+      <phrase id="tblcaption" value="jenis ijin" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+      <field id="valueperjam">
+        <phrase id="fldcaption" value="Value Perjam" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+    </table>
+    <table id="jenis_lembur">
+      <phrase id="tblcaption" value="jenis lembur" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="komentar">
+      <phrase id="tblcaption" value="Komentar" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="komentar">
+        <phrase id="fldcaption" value="Komentar" />
+      </field>
+      <field id="gambar">
+        <phrase id="fldcaption" value="Gambar" />
+      </field>
+      <field id="video">
+        <phrase id="fldcaption" value="Video" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+    </table>
+    <table id="lembur">
+      <phrase id="tblcaption" value="Lembur" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="pm">
+        <phrase id="fldcaption" value="Project Manager" />
+      </field>
+      <field id="proyek">
+        <phrase id="fldcaption" value="Proyek" />
+      </field>
+      <field id="tgl">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="tgl_awal_lembur">
+        <phrase id="fldcaption" value="Tanggal Awal Lembur" />
+      </field>
+      <field id="tgl_akhir_lembur">
+        <phrase id="fldcaption" value="Tanggal Akhir Lembur" />
+      </field>
+      <field id="total_jam">
+        <phrase id="fldcaption" value="Total Jam" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="disetujui">
+        <phrase id="fldcaption" value="Disetujui" />
+      </field>
+      <field id="dokumen">
+        <phrase id="fldcaption" value="Dokumen" />
+      </field>
+    </table>
+    <table id="m_karyawan_sd">
+      <phrase id="tblcaption" value="Detil Gaji Karyawan SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_karyawan_sma">
+      <phrase id="tblcaption" value="Detil Gaji Karyawan SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_karyawan_smk">
+      <phrase id="tblcaption" value="Detil Gaji Karyawan SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_karyawan_smp">
+      <phrase id="tblcaption" value="Detil Gaji Karyawan SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_karyawan_tk">
+      <phrase id="tblcaption" value="Detil Gaji karyawan TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_pulangcepat">
+      <phrase id="tblcaption" value="M Pulang Cepat" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="perjam">
+        <phrase id="fldcaption" value="Perjam" />
+      </field>
+      <field id="perhari">
+        <phrase id="fldcaption" value="Perhari" />
+      </field>
+    </table>
+    <table id="m_sakit">
+      <phrase id="tblcaption" value="M Sakit" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="jenjang id" />
+      </field>
+      <field id="jabatan">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="perhari">
+        <phrase id="fldcaption" value="Perhari" />
+      </field>
+      <field id="perjam">
+        <phrase id="fldcaption" value="Perjam" />
+      </field>
+    </table>
+    <table id="m_sd">
+      <phrase id="tblcaption" value="Detil Gaji Guru SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_sma">
+      <phrase id="tblcaption" value="Detil Gaji Guru SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_smk">
+      <phrase id="tblcaption" value="Detil Gaji Guru SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_smp">
+      <phrase id="tblcaption" value="Detil Gaji Guru SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tidakhadir">
+      <phrase id="tblcaption" value="M Tidak Hadir" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+      <field id="perjam_value">
+        <phrase id="fldcaption" value="Perjam Value" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="jenis" />
+      </field>
+    </table>
+    <table id="m_tk">
+      <phrase id="tblcaption" value="Detil Gaji Guru tk" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tu_sd">
+      <phrase id="tblcaption" value="Detil Gaji TU SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tu_sma">
+      <phrase id="tblcaption" value="Detil Gaji TU SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tu_smk">
+      <phrase id="tblcaption" value="Detil Gaji TU SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tu_smp">
+      <phrase id="tblcaption" value="Detil Gaji TU SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="m_tu_tk">
+      <phrase id="tblcaption" value="Detil Gaji TU TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="createby">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="mpendidikan">
+      <phrase id="tblcaption" value="Master Pendidikan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Pendidikan" />
+      </field>
+    </table>
+    <table id="peg_dokumen">
+      <phrase id="tblcaption" value="Pegawai Dokumen" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="nama_dokumen">
+        <phrase id="fldcaption" value="nama dokumen" />
+      </field>
+      <field id="file_dokumen">
+        <phrase id="fldcaption" value="file dokumen" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="keterangan" />
+      </field>
+      <field id="c_date">
+        <phrase id="fldcaption" value="c date" />
+      </field>
+      <field id="u_date">
+        <phrase id="fldcaption" value="u date" />
+      </field>
+      <field id="c_by">
+        <phrase id="fldcaption" value="c by" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="u by" />
+      </field>
+    </table>
+    <table id="peg_keluarga">
+      <phrase id="tblcaption" value="Pegawai Keluarga" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="nama" />
+      </field>
+      <field id="hp">
+        <phrase id="fldcaption" value="hp" />
+      </field>
+      <field id="hubungan">
+        <phrase id="fldcaption" value="hubungan" />
+      </field>
+      <field id="tgl_lahir">
+        <phrase id="fldcaption" value="tgl lahir" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="keterangan" />
+      </field>
+      <field id="jen_kel">
+        <phrase id="fldcaption" value="jen kel" />
+      </field>
+    </table>
+    <table id="peg_skill">
+      <phrase id="tblcaption" value="Pegawai Skill" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="keahlian">
+        <phrase id="fldcaption" value="keahlian" />
+      </field>
+      <field id="tingkat">
+        <phrase id="fldcaption" value="tingkat" />
+      </field>
+      <field id="bukti">
+        <phrase id="fldcaption" value="bukti" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="keterangan" />
+      </field>
+      <field id="c_date">
+        <phrase id="fldcaption" value="c date" />
+      </field>
+      <field id="u_date">
+        <phrase id="fldcaption" value="u date" />
+      </field>
+      <field id="c_by">
+        <phrase id="fldcaption" value="c by" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="u by" />
+      </field>
+    </table>
+    <table id="pegawai">
+      <phrase id="tblcaption" value="Pegawai" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pid">
+        <phrase id="fldcaption" value="pid" />
+      </field>
+      <field id="nip">
+        <phrase id="fldcaption" value="NIP" />
+      </field>
+      <field id="username">
+        <phrase id="fldcaption" value="Username" />
+      </field>
+      <field id="password">
+        <phrase id="fldcaption" value="Password" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="periode_jabatan">
+        <phrase id="fldcaption" value="Periode Jabatan" />
+      </field>
+      <field id="type">
+        <phrase id="fldcaption" value="Type Pegawai" />
+      </field>
+      <field id="sertif">
+        <phrase id="fldcaption" value="Sertifikasi" />
+      </field>
+      <field id="tambahan">
+        <phrase id="fldcaption" value="Tambahan Tugas" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="alamat">
+        <phrase id="fldcaption" value="Alamat" />
+      </field>
+      <field id="_email">
+        <phrase id="fldcaption" value="Email" />
+      </field>
+      <field id="wa">
+        <phrase id="fldcaption" value="WhatApps" />
+      </field>
+      <field id="hp">
+        <phrase id="fldcaption" value="No.HP" />
+      </field>
+      <field id="tgllahir">
+        <phrase id="fldcaption" value="Tanggal Lahir" />
+      </field>
+      <field id="rekbank">
+        <phrase id="fldcaption" value="Rek Bank" />
+      </field>
+      <field id="pendidikan">
+        <phrase id="fldcaption" value="Pendidikan" />
+      </field>
+      <field id="jurusan">
+        <phrase id="fldcaption" value="Jurusan" />
+      </field>
+      <field id="agama">
+        <phrase id="fldcaption" value="Agama" />
+      </field>
+      <field id="jenkel">
+        <phrase id="fldcaption" value="Jenis Kelamin" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="foto">
+        <phrase id="fldcaption" value="Foto" />
+      </field>
+      <field id="file_cv">
+        <phrase id="fldcaption" value="File CV" />
+      </field>
+      <field id="mulai_bekerja">
+        <phrase id="fldcaption" value="Mulai Bekerja" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="level">
+        <phrase id="fldcaption" value="Level" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="penempatan">
+      <phrase id="tblcaption" value="Penempatan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="project">
+        <phrase id="fldcaption" value="Project" />
+      </field>
+      <field id="jabatan">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="tgl_mulai">
+        <phrase id="fldcaption" value="Tanggal Mulai" />
+      </field>
+      <field id="tgl_akhir">
+        <phrase id="fldcaption" value="Tanggal Akhir" />
+      </field>
+    </table>
+    <table id="pengetahuan">
+      <phrase id="tblcaption" value="Pengetahuan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="grup">
+        <phrase id="fldcaption" value="Grup" />
+      </field>
+      <field id="judul">
+        <phrase id="fldcaption" value="Judul" />
+      </field>
+      <field id="isi">
+        <phrase id="fldcaption" value="Isi" />
+      </field>
+      <field id="sumber_url">
+        <phrase id="fldcaption" value="Sumber Url" />
+      </field>
+      <field id="dokumen">
+        <phrase id="fldcaption" value="Dokumen" />
+      </field>
+      <field id="visual">
+        <phrase id="fldcaption" value="Visual" />
+      </field>
+      <field id="c_by">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+    </table>
+    <table id="potongan_sd">
+      <phrase id="tblcaption" value="Potongan SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="Terlambat" />
+      </field>
+      <field id="value_terlambat">
+        <phrase id="fldcaption" value="Value Terlambat" />
+      </field>
+      <field id="izin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="value_izin">
+        <phrase id="fldcaption" value="Value Izin" />
+      </field>
+      <field id="izinperjam">
+        <phrase id="fldcaption" value="Izin Perjam" />
+      </field>
+      <field id="izinperjamvalue">
+        <phrase id="fldcaption" value="Izin Perjam Value" />
+      </field>
+      <field id="sakit">
+        <phrase id="fldcaption" value="Sakit" />
+      </field>
+      <field id="value_sakit">
+        <phrase id="fldcaption" value="Value Sakit" />
+      </field>
+      <field id="sakitperjam">
+        <phrase id="fldcaption" value="Sakit Perjam" />
+      </field>
+      <field id="sakitperjamvalue">
+        <phrase id="fldcaption" value="Sakit Perjam Value" />
+      </field>
+      <field id="pulcep">
+        <phrase id="fldcaption" value="Pulang Cepat" />
+      </field>
+      <field id="value_pulcep">
+        <phrase id="fldcaption" value="Value Pulang Cepat" />
+      </field>
+      <field id="tidakhadir">
+        <phrase id="fldcaption" value="Tidak Hadir" />
+      </field>
+      <field id="value_tidakhadir">
+        <phrase id="fldcaption" value="Value Tidak Hadir" />
+      </field>
+      <field id="tidakhadirjam">
+        <phrase id="fldcaption" value="Tidak Hadir Jam" />
+      </field>
+      <field id="tidakhadirjamvalue">
+        <phrase id="fldcaption" value="Tidak Hadir Jam Value" />
+      </field>
+      <field id="totalpotongan">
+        <phrase id="fldcaption" value="Total Potongan" />
+      </field>
+    </table>
+    <table id="potongan_sma">
+      <phrase id="tblcaption" value="Potongan SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="Create By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="Terlambat" />
+      </field>
+      <field id="value_terlambat">
+        <phrase id="fldcaption" value="Value terlambat" />
+      </field>
+      <field id="izin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="value_izin">
+        <phrase id="fldcaption" value="Value Izin" />
+      </field>
+      <field id="sakit">
+        <phrase id="fldcaption" value="Sakit" />
+      </field>
+      <field id="value_sakit">
+        <phrase id="fldcaption" value="Value Sakit" />
+      </field>
+      <field id="tidakhadir">
+        <phrase id="fldcaption" value="Tidak Hadir" />
+      </field>
+      <field id="value_tidakhadir">
+        <phrase id="fldcaption" value="Value Tidak Hadir" />
+      </field>
+      <field id="pulcep">
+        <phrase id="fldcaption" value="Pulang cepat" />
+      </field>
+      <field id="value_pulcep">
+        <phrase id="fldcaption" value="Value Pulang Cepat" />
+      </field>
+      <field id="tidakhadirjam">
+        <phrase id="fldcaption" value="Tidak Hadir Jam" />
+      </field>
+      <field id="tidakhadirjamvalue">
+        <phrase id="fldcaption" value="Tidak Hadir Jamvalue" />
+      </field>
+      <field id="sakitperjam">
+        <phrase id="fldcaption" value="Sakit Perjam" />
+      </field>
+      <field id="sakitperjamvalue">
+        <phrase id="fldcaption" value="Sakit Perjam Value" />
+      </field>
+      <field id="izinperjam">
+        <phrase id="fldcaption" value="Izin Perjam" />
+      </field>
+      <field id="izinperjamvalue">
+        <phrase id="fldcaption" value="Izin Perjam Value" />
+      </field>
+      <field id="totalpotongan">
+        <phrase id="fldcaption" value="Total Potongan" />
+      </field>
+    </table>
+    <table id="potongan_smk">
+      <phrase id="tblcaption" value="Potongan SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="Terlambat" />
+      </field>
+      <field id="value_terlambat">
+        <phrase id="fldcaption" value="Value Terlambat" />
+      </field>
+      <field id="izin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="value_izin">
+        <phrase id="fldcaption" value="Value Izin" />
+      </field>
+      <field id="sakit">
+        <phrase id="fldcaption" value="Sakit" />
+      </field>
+      <field id="value_sakit">
+        <phrase id="fldcaption" value="Value Sakit" />
+      </field>
+      <field id="tidakhadir">
+        <phrase id="fldcaption" value="Tidak Hadir" />
+      </field>
+      <field id="value_tidakhadir">
+        <phrase id="fldcaption" value="Value Tidak Hadir" />
+      </field>
+      <field id="pulcep">
+        <phrase id="fldcaption" value="Pulang Cepat" />
+      </field>
+      <field id="value_pulcep">
+        <phrase id="fldcaption" value="Value Pulang Cepat" />
+      </field>
+      <field id="tidakhadirjam">
+        <phrase id="fldcaption" value="Tidak Hadir Jam" />
+      </field>
+      <field id="tidakhadirjamvalue">
+        <phrase id="fldcaption" value="Tidak Hadir Jamvalue" />
+      </field>
+      <field id="sakitperjam">
+        <phrase id="fldcaption" value="Sakit Perjam" />
+      </field>
+      <field id="sakitperjamvalue">
+        <phrase id="fldcaption" value="Sakit Perjam Value" />
+      </field>
+      <field id="izinperjam">
+        <phrase id="fldcaption" value="Izin Perjam" />
+      </field>
+      <field id="izinperjamvalue">
+        <phrase id="fldcaption" value="Izin Perjam Value" />
+      </field>
+      <field id="totalpotongan">
+        <phrase id="fldcaption" value="Total Potongan" />
+      </field>
+    </table>
+    <table id="potongan_smp">
+      <phrase id="tblcaption" value="Potongan SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="u by" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="Terlambat" />
+      </field>
+      <field id="value_terlambat">
+        <phrase id="fldcaption" value="Value erlambat" />
+      </field>
+      <field id="izin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="value_izin">
+        <phrase id="fldcaption" value="Value Izin" />
+      </field>
+      <field id="izinperjam">
+        <phrase id="fldcaption" value="Izin Perjam" />
+      </field>
+      <field id="izinperjamvalue">
+        <phrase id="fldcaption" value="Izin Perjam Value" />
+      </field>
+      <field id="sakit">
+        <phrase id="fldcaption" value="Sakit" />
+      </field>
+      <field id="value_sakit">
+        <phrase id="fldcaption" value="Value Sakit" />
+      </field>
+      <field id="sakitperjam">
+        <phrase id="fldcaption" value="Sakit Perjam" />
+      </field>
+      <field id="sakitperjamvalue">
+        <phrase id="fldcaption" value="Sakit Perjam Value" />
+      </field>
+      <field id="pulcep">
+        <phrase id="fldcaption" value="Pulang Cepat" />
+      </field>
+      <field id="value_pulcep">
+        <phrase id="fldcaption" value="Value Pulang Cepat" />
+      </field>
+      <field id="tidakhadir">
+        <phrase id="fldcaption" value="Tidak Hadir" />
+      </field>
+      <field id="value_tidakhadir">
+        <phrase id="fldcaption" value="Value Tidak Hadir" />
+      </field>
+      <field id="tidakhadirjam">
+        <phrase id="fldcaption" value="Tidak Hadir Perjam" />
+      </field>
+      <field id="tidakhadirjamvalue">
+        <phrase id="fldcaption" value="Tidak Hadir Perjam Value" />
+      </field>
+      <field id="totalpotongan">
+        <phrase id="fldcaption" value="totalpotongan" />
+      </field>
+    </table>
+    <table id="potongan_tk">
+      <phrase id="tblcaption" value="Potongan TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="u_by">
+        <phrase id="fldcaption" value="By" />
+      </field>
+      <field id="month">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan" />
+      </field>
+      <field id="terlambat">
+        <phrase id="fldcaption" value="Terlambat" />
+      </field>
+      <field id="value_terlambat">
+        <phrase id="fldcaption" value="Value Terlambat" />
+      </field>
+      <field id="izin">
+        <phrase id="fldcaption" value="Izin" />
+      </field>
+      <field id="value_izin">
+        <phrase id="fldcaption" value="Value Izin" />
+      </field>
+      <field id="izinperjam">
+        <phrase id="fldcaption" value="Izin Perjam" />
+      </field>
+      <field id="izinperjamvalue">
+        <phrase id="fldcaption" value="Izin Perjam Value" />
+      </field>
+      <field id="sakit">
+        <phrase id="fldcaption" value="Sakit" />
+      </field>
+      <field id="value_sakit">
+        <phrase id="fldcaption" value="Value Sakit" />
+      </field>
+      <field id="sakitperjam">
+        <phrase id="fldcaption" value="Sakit Perjam" />
+      </field>
+      <field id="sakitperjamvalue">
+        <phrase id="fldcaption" value="Sakit Perjam Value" />
+      </field>
+      <field id="pulcep">
+        <phrase id="fldcaption" value="Pulang Cepat" />
+      </field>
+      <field id="value_pulcep">
+        <phrase id="fldcaption" value="Value Pulang Cepat" />
+      </field>
+      <field id="tidakhadir">
+        <phrase id="fldcaption" value="Tidak Hadir" />
+      </field>
+      <field id="value_tidakhadir">
+        <phrase id="fldcaption" value="Value Tidak Hadir" />
+      </field>
+      <field id="tidakhadirjam">
+        <phrase id="fldcaption" value="Tidak Hadir Perjam" />
+      </field>
+      <field id="tidakhadirjamvalue">
+        <phrase id="fldcaption" value="Tidak Hadir Perjam Value" />
+      </field>
+      <field id="totalpotongan">
+        <phrase id="fldcaption" value="totalpotongan" />
+      </field>
+    </table>
+    <table id="proyek">
+      <phrase id="tblcaption" value="Proyek" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="klien">
+        <phrase id="fldcaption" value="Client" />
+      </field>
+      <field id="proyek">
+        <phrase id="fldcaption" value="Project" />
+      </field>
+      <field id="tgl_awal">
+        <phrase id="fldcaption" value="Tanggal Awal" />
+      </field>
+      <field id="tgl_akhir">
+        <phrase id="fldcaption" value="Tanggal Akhir" />
+      </field>
+      <field id="file_proyek">
+        <phrase id="fldcaption" value="File Proyek" />
+      </field>
+      <field id="aktif">
+        <phrase id="fldcaption" value="Aktif" />
+      </field>
+    </table>
+    <table id="reimbursh">
+      <phrase id="tblcaption" value="Reimbursh" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="Nama" />
+      </field>
+      <field id="tgl">
+        <phrase id="fldcaption" value="Tanggal" />
+      </field>
+      <field id="total_pengajuan">
+        <phrase id="fldcaption" value="Total Pengajuan" />
+      </field>
+      <field id="tgl_pengajuan">
+        <phrase id="fldcaption" value="Tangga Pengajuan" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+      <field id="rek_tujuan">
+        <phrase id="fldcaption" value="Rekeni tujuan" />
+      </field>
+      <field id="bukti1">
+        <phrase id="fldcaption" value="bukti 1" />
+      </field>
+      <field id="bukti2">
+        <phrase id="fldcaption" value="bukti 2" />
+      </field>
+      <field id="bukti3">
+        <phrase id="fldcaption" value="bukti 3" />
+      </field>
+      <field id="bukti4">
+        <phrase id="fldcaption" value="bukti 4" />
+      </field>
+      <field id="disetujui">
+        <phrase id="fldcaption" value="Disetujui" />
+      </field>
+      <field id="pembayar">
+        <phrase id="fldcaption" value="Pembayar" />
+      </field>
+      <field id="terbayar">
+        <phrase id="fldcaption" value="Terbayar" />
+      </field>
+      <field id="tgl_pembayaran">
+        <phrase id="fldcaption" value="Tanggal Pembayaran" />
+      </field>
+      <field id="jumlah_dibayar">
+        <phrase id="fldcaption" value="Jumlah Dibayar" />
+      </field>
+    </table>
+    <table id="setuju">
+      <phrase id="tblcaption" value="M Setuju" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="terlambat">
+      <phrase id="tblcaption" value="Terlambat" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jabatan_id">
+        <phrase id="fldcaption" value="Jabatan id" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="testtable">
+      <phrase id="tblcaption" value="testtable" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="date">
+        <phrase id="fldcaption" value="date" />
+      </field>
+      <field id="nojob">
+        <phrase id="fldcaption" value="nojob" />
+      </field>
+      <field id="stuffingdate">
+        <phrase id="fldcaption" value="stuffingdate" />
+      </field>
+      <field id="shipper">
+        <phrase id="fldcaption" value="shipper" />
+      </field>
+      <field id="stuffingloc">
+        <phrase id="fldcaption" value="stuffingloc" />
+      </field>
+      <field id="party">
+        <phrase id="fldcaption" value="party" />
+      </field>
+      <field id="typeparty">
+        <phrase id="fldcaption" value="typeparty" />
+      </field>
+      <field id="jumlahparty">
+        <phrase id="fldcaption" value="jumlahparty" />
+      </field>
+      <field id="shipping">
+        <phrase id="fldcaption" value="shipping" />
+      </field>
+      <field id="bookingnumer">
+        <phrase id="fldcaption" value="bookingnumer" />
+      </field>
+      <field id="shippingline">
+        <phrase id="fldcaption" value="shippingline" />
+      </field>
+      <field id="port">
+        <phrase id="fldcaption" value="port" />
+      </field>
+      <field id="surjal">
+        <phrase id="fldcaption" value="surjal" />
+      </field>
+      <field id="nota">
+        <phrase id="fldcaption" value="nota" />
+      </field>
+      <field id="invoice">
+        <phrase id="fldcaption" value="invoice" />
+      </field>
+    </table>
+    <table id="totalgaji">
+      <phrase id="tblcaption" value="totalgaji" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nama">
+        <phrase id="fldcaption" value="nama" />
+      </field>
+      <field id="jabatan">
+        <phrase id="fldcaption" value="jabatan" />
+      </field>
+      <field id="valuejabatan">
+        <phrase id="fldcaption" value="valuejabatan" />
+      </field>
+      <field id="valuetunjangan">
+        <phrase id="fldcaption" value="valuetunjangan" />
+      </field>
+      <field id="value_lembur">
+        <phrase id="fldcaption" value="value lembur" />
+      </field>
+      <field id="column_7">
+        <phrase id="fldcaption" value="Column 7" />
+      </field>
+      <field id="column_8">
+        <phrase id="fldcaption" value="Column 8" />
+      </field>
+      <field id="column_9">
+        <phrase id="fldcaption" value="Column 9" />
+      </field>
+    </table>
+    <table id="tpendidikan">
+      <phrase id="tblcaption" value="Pendidikan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="nourut">
+        <phrase id="fldcaption" value="No Urut" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="uangmuka">
+      <phrase id="tblcaption" value="Uang Muka" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="tgl">
+        <phrase id="fldcaption" value="Tanggall" />
+      </field>
+      <field id="pembayar">
+        <phrase id="fldcaption" value="Pembayar" />
+      </field>
+      <field id="peruntukan">
+        <phrase id="fldcaption" value="Peruntukan" />
+      </field>
+      <field id="penerima">
+        <phrase id="fldcaption" value="Penerima" />
+      </field>
+      <field id="rek_penerima">
+        <phrase id="fldcaption" value="Rekening Penerima" />
+      </field>
+      <field id="tgl_terima">
+        <phrase id="fldcaption" value="Tanggal Terima" />
+      </field>
+      <field id="total_terima">
+        <phrase id="fldcaption" value="Total Terima" />
+      </field>
+      <field id="tgl_tgjb">
+        <phrase id="fldcaption" value="Tanggal TGJB" />
+      </field>
+      <field id="jumlah_tgjb">
+        <phrase id="fldcaption" value="Jumlah TGJB" />
+      </field>
+      <field id="jenis">
+        <phrase id="fldcaption" value="Jenis" />
+      </field>
+      <field id="bukti1">
+        <phrase id="fldcaption" value="Bukti 1" />
+      </field>
+      <field id="bukti2">
+        <phrase id="fldcaption" value="Bukti 2" />
+      </field>
+      <field id="bukti3">
+        <phrase id="fldcaption" value="Bukti 3" />
+      </field>
+      <field id="bukti4">
+        <phrase id="fldcaption" value="Bukti 4" />
+      </field>
+      <field id="disetujui">
+        <phrase id="fldcaption" value="Disetujui" />
+        <phrase id="fldtagvalue1" value="" />
+        <phrase id="fldtagcaption1" value="" />
+      </field>
+      <field id="status">
+        <phrase id="fldcaption" value="Status" />
+      </field>
+      <field id="keterangan">
+        <phrase id="fldcaption" value="Keterangan" />
+      </field>
+    </table>
+    <table id="userlevelpermissions">
+      <phrase id="tblcaption" value="userlevelpermissions" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="_tablename">
+        <phrase id="fldcaption" value="tablename" />
+      </field>
+      <field id="permission">
+        <phrase id="fldcaption" value="permission" />
+      </field>
+    </table>
+    <table id="userlevels">
+      <phrase id="tblcaption" value="userlevels" />
+      <field id="userlevelid">
+        <phrase id="fldcaption" value="userlevelid" />
+      </field>
+      <field id="userlevelname">
+        <phrase id="fldcaption" value="userlevelname" />
+      </field>
+    </table>
+    <table id="v_totalgaji">
+      <phrase id="tblcaption" value="Total Gaji Guru SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajikaryawan">
+      <phrase id="tblcaption" value="Total Gaji Karyawan SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajikaryawansma">
+      <phrase id="tblcaption" value="Total Gaji Karyawan SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+    </table>
+    <table id="v_totalgajikaryawansmk">
+      <phrase id="tblcaption" value="Total Gaji Karyawan SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajikaryawansmp">
+      <phrase id="tblcaption" value="Total Gaji Karyawan SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajikaryawantk">
+      <phrase id="tblcaption" value="Total Gaji Karyawan TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajisma">
+      <phrase id="tblcaption" value="Total Gaji GuruSMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajismk">
+      <phrase id="tblcaption" value="Total Gaji Guru SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajismp">
+      <phrase id="tblcaption" value="Total Gaji SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajitk">
+      <phrase id="tblcaption" value="Total Gaji Guru TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="datetime" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+    </table>
+    <table id="v_totalgajitu">
+      <phrase id="tblcaption" value="Total Gaji TU SD" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajitusma">
+      <phrase id="tblcaption" value="Total Gaji TU SMA" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajitusmk">
+      <phrase id="tblcaption" value="Total Gaji TU SMK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajitusmp">
+      <phrase id="tblcaption" value="Total Gaji TU SMP" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="v_totalgajitutk">
+      <phrase id="tblcaption" value="Total Gaji TU TK" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="datetime">
+        <phrase id="fldcaption" value="Date Time" />
+      </field>
+      <field id="bulan">
+        <phrase id="fldcaption" value="Bulan" />
+      </field>
+      <field id="tahun">
+        <phrase id="fldcaption" value="Tahun" />
+      </field>
+      <field id="pegawai">
+        <phrase id="fldcaption" value="Pegawai" />
+      </field>
+      <field id="total">
+        <phrase id="fldcaption" value="Total" />
+      </field>
+    </table>
+    <table id="tunjangan_tambahan">
+      <phrase id="tblcaption" value="Tunjangan Tugas Tambahan" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="kualifikasi">
+        <phrase id="fldcaption" value="Kualifikasi" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="jenis_jabatan">
+      <phrase id="tblcaption" value="Jenis Jabatan" />
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="tunjangan_berkala">
+      <phrase id="tblcaption" value="Tunjangan Berkala" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="kualifikasi">
+        <phrase id="fldcaption" value="Kualifikasi" />
+      </field>
+      <field id="lama">
+        <phrase id="fldcaption" value="Lama" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="m_kehadiran">
+      <phrase id="tblcaption" value="Setting Kehadiran" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="jenis_jabatan">
+        <phrase id="fldcaption" value="Jenis Jabatan" />
+      </field>
+      <field id="jabatan">
+        <phrase id="fldcaption" value="jabatan" />
+      </field>
+      <field id="sertif">
+        <phrase id="fldcaption" value="Sertifikasi" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="gaji_pokok_tu">
+      <phrase id="tblcaption" value="Gaji Pokok TU" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang_id">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="ijazah">
+        <phrase id="fldcaption" value="Ijazah" />
+      </field>
+      <field id="lama_kerja">
+        <phrase id="fldcaption" value="Lama Kerja" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="Value" />
+      </field>
+    </table>
+    <table id="sertif">
+      <phrase id="tblcaption" value="Sertifikasi" />
+      <field id="id">
+        <phrase id="fldcaption" value="ID" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="tambahan_tugas">
+      <phrase id="tblcaption" value="M Tambahan Tugas" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="name">
+        <phrase id="fldcaption" value="Name" />
+      </field>
+    </table>
+    <table id="m_piket">
+      <phrase id="tblcaption" value="Setting Piket" />
+      <field id="id">
+        <phrase id="fldcaption" value="id" />
+      </field>
+      <field id="jenjang">
+        <phrase id="fldcaption" value="Jenjang" />
+      </field>
+      <field id="type_jabatan">
+        <phrase id="fldcaption" value="Type Jabatan" />
+      </field>
+      <field id="jenis_sertif">
+        <phrase id="fldcaption" value="Jenis Sertifikasi" />
+      </field>
+      <field id="value">
+        <phrase id="fldcaption" value="tunjangan Khusus" />
+      </field>
+    </table>
+    <table id="test_api">
+      <phrase id="tblcaption" value="Test Api" />
+    </table>
+  </project>
+</ew-language>

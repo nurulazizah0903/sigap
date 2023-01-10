@@ -1,0 +1,8 @@
+<?php $val = array (
+  'filetoken' => '93598364',
+  'file' => 'importgapok.xlsx',
+  'totalCount' => 51,
+  'count' => 1,
+  'successCount' => 0,
+  'failCount' => 1,
+);
